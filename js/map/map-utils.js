@@ -1,1 +1,0 @@
-export function enrichDataWithCoords(o,n){return o.map(o=>{const t=o.city,c=n[t];return c?{...o,province:c.province,value:o.coord||c.coord}:(console.warn(`⚠️ 无法识别城市: ${t}`),o)})}export function getCounts(o,n){const t={};return o.forEach(o=>{const c="city"===n?o.city:o.province;c&&(t[c]=(t[c]||0)+1)}),Object.keys(t).map(o=>({name:o,value:t[o]}))}
