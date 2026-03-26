@@ -1,0 +1,51 @@
+/*
+ * 功能:
+ * 1. 默认模糊效果。
+ * 2. 悬停或点击显示清晰内容。
+ * 3. 解决点击隐藏时与悬停效果的冲突。
+ * 4. 适配内部链接样式。
+ */
+
+/* 默认状态：模糊遮罩 */
+.text-mask {
+    /* 選取所有 HTML 中 class 屬性為 text-mask 的元素（例如 <span class="text-mask">被遮罩的文字</span>），並將大括號 {} 中的樣式應用到這些元素上。 */
+    /* 將文字本身的顏色設定為透明 */
+    color: transparent;
+    /* 鼠标指针变成手型 */
+    cursor: pointer;
+    /* 對整個元素（包括其背景和內容）套用一個高斯模糊濾鏡 半徑為 5px */
+    filter: blur(5px);
+    /* 文字的陰影效果，水平偏移 0px，垂直偏移 0px，模糊半徑 8px，顏色 rgb(0,0,0) 不透明 0.7 */
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+    /* 元素的內邊距上下為 0，左右為 5px */
+    padding: 0 5px;
+    /* 元素邊框的圓角半徑為 3px */
+    border-radius: 3px;
+    /* 元素的透明度變化時間為 0.3 秒，使用 ease 動畫效果 */
+    transition: all 0.3s ease;
+}
+
+/* 状态一：当鼠标悬停时，或当元素拥有 .is-revealed 类（被点击后）时 --> 显示清晰文字 */
+.text-mask:hover,
+.text-mask.is-revealed {
+    color: inherit;
+    filter: none;
+    text-shadow: none;
+}
+
+/* 状态二：当元素临时拥有 .no-hover-effect 类时 --> 强制保持模糊 */
+.text-mask.no-hover-effect:hover {
+    color: transparent;
+    filter: blur(5px);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+/* --- 内部链接的适配样式 --- */
+.text-mask a {
+    color: inherit !important;
+}
+
+.text-mask:hover a,
+.text-mask.is-revealed a {
+    color: var(--link-color, #007bff) !important;
+}

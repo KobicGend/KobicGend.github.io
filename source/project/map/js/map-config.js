@@ -1,0 +1,40 @@
+// project/map/js/map-config.js
+
+// 省份全称到文件名的映射
+// 键名必须与地图上的名字完全一致
+export const provinceMap = {
+    '北京市': 'beijing',
+    '天津市': 'tianjin',
+    '上海市': 'shanghai',
+    '重庆市': 'chongqing',
+    '河北省': 'hebei',
+    '山西省': 'shanxi',
+    '辽宁省': 'liaoning',
+    '吉林省': 'jilin',
+    '黑龙江省': 'heilongjiang',
+    '江苏省': 'jiangsu',
+    '浙江省': 'zhejiang',
+    '安徽省': 'anhui',
+    '福建省': 'fujian',
+    '江西省': 'jiangxi',
+    '山东省': 'shandong',
+    '河南省': 'henan',
+    '湖北省': 'hubei',
+    '湖南省': 'hunan',
+    '广东省': 'guangdong',
+    '广西壮族自治区': 'guangxi', 
+    '海南省': 'hainan',
+    '四川省': 'sichuan',
+    '贵州省': 'guizhou',
+    '云南省': 'yunnan',
+    '西藏自治区': 'xizang',
+    '陕西省': 'shaanxi',
+    '甘肃省': 'gansu',
+    '青海省': 'qinghai',
+    '宁夏回族自治区': 'ningxia',
+    '新疆维吾尔自治区': 'xinjiang',
+    '香港特别行政区': 'xianggang',
+    '澳门特别行政区': 'aomen',
+    '台湾省': 'taiwan',
+    '内蒙古自治区': 'neimenggu'
+};

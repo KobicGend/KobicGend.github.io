@@ -1,0 +1,15 @@
+{
+  "showLineNumber": true,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 76
+  },
+  "newFileLocation": "current",
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "attachmentFolderPath": "/"
+}

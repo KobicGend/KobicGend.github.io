@@ -1,0 +1,81 @@
+# --------------------------------------
+# Aside Settings
+# --------------------------------------
+
+aside:
+  enable: true
+  hide: false
+  # Show the button to hide the aside in bottom right button
+  button: true
+  mobile: true # display on mobile
+  position: left # left or right
+  display:
+    archive: false
+    tag: false
+    category: false    ################ 不显示側邊欄
+  card_author:
+    enable: true
+    description: ''
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/kobicgend
+
+
+  card_announcement:
+    enable: false
+    content: '用於備份小明的腦子。<br>
+    ————<b> Tips </b>————<br>
+    部分評論從QQ空間或puq抓取，由於技術有限，無法顯示正確的位置和時間，望見諒。<br>
+    ————<b> 計劃中 </b>————<br>
+    美食評測, 每日一圖, ...' # This is my Blog
+
+  card_recent_post:
+    enable: false
+    # If set 0 will show all
+    limit: 5
+    # Sort: date / updated
+    sort: updated
+    sort_order:
+  card_newest_comments:
+    enable: false
+    sort_order:
+    limit: 6
+    # Unit: mins, save data to localStorage
+    storage: 10
+    avatar: true
+  card_categories:
+    enable: true
+    limit: 0 # if set 0 will show all
+    expand: false # none/true/false
+    sort_order: # Don't modify the setting unless you know how it works
+  card_tags:
+    enable: true
+    limit: 0 # if set 0 will show all
+    color: false
+    orderby: random # Order of tags, random/name/length
+    order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    sort_order: # Don't modify the setting unless you know how it works
+  card_archives:
+    enable: true
+    type: monthly # yearly or monthly
+    format: YYYY MMMM # eg: YYYY年MM月
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    limit: 8 # if set 0 will show all
+    sort_order: # Don't modify the setting unless you know how it works
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    sort_order: # Don't modify the setting unless you know how it works
+    # Time difference between publish date and now
+    # Formal: Month/Day/Year Time or Year/Month/Day Time
+    # Leave it empty if you don't enable this feature
+    runtime_date: '2024/03/25 16:20:38'
+  card_post_series:
+    enable: true
+    series_title: true # The title shows the series name
+    orderBy: 'date' # Order by title or date
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+

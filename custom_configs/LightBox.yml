@@ -1,0 +1,9 @@
+# --------------------------------------
+# Lightbox Settings 大圖查看模式
+# --------------------------------------
+
+# Choose: fancybox / medium_zoom
+# https://github.com/francoischalifour/medium-zoom
+# https://fancyapps.com/fancybox/
+# Leave it empty if you don't need lightbox
+lightbox: fancybox

@@ -1,0 +1,14 @@
+{
+  "accentColor": "",
+  "interfaceFontFamily": "Times New Roman,方正中雅宋_GBK",
+  "monospaceFontFamily": "Lucida Console,Consolas",
+  "baseFontSize": 18,
+  "baseFontSizeAction": false,
+  "textFontFamily": "Times New Roman,思源宋體 TW,方正屏显雅宋_GBK,思源宋体 CN",
+  "cssTheme": "Sanctum",
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "q"
+  ],
+  "theme": "system"
+}

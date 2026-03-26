@@ -1,0 +1,124 @@
+/* ----------------------------苹---------------------------- */
+@font-face {
+   font-family: 'CaviarDreams';
+   font-weight: 400;
+   font-display: swap;
+   src: url('/fonts/CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'CaviarDreams';
+   font-weight: 500;
+   font-display: swap;
+   src: url('/fonts/CaviarDreams_Bold.ttf') format('truetype');
+}
+
+
+/* ----------------------------日---------------------------- */
+/* @font-face {
+   font-family: 'Genkaimincho';
+   font-display: swap;
+   src: url('/fonts/Genkaimincho.ttf') format('truetype');
+} */
+
+
+@font-face {
+   font-family: 'YuMin';
+   font-weight: 400;
+   font-display: swap;
+   src: url('/fonts/YuMin-Medium.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'YuMin';
+   font-weight: 500;
+   font-display: swap;
+   src: url('/fonts/YuMin-DemiboldBold.ttf') format('truetype');
+}
+
+
+
+/* ----------------------------楷---------------------------- */
+@font-face {
+   font-family: 'AGaramondPro';
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+   src: url('/fonts/AGaramondPro-Regular.otf') format('opentype');
+}
+@font-face {
+   font-family: 'AGaramondPro';
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+   src: url('/fonts/AGaramondPro-Italic.otf') format('opentype');
+}
+@font-face {
+   font-family: 'AGaramondPro';
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+   src: url('/fonts/AGaramondPro-Bold.otf') format('opentype');
+}
+@font-face {
+   font-family: 'AGaramondPro';
+   font-weight: 500;
+   font-style: italic;
+   font-display: swap;
+   src: url('/fonts/AGaramondPro-BoldItalic.otf') format('opentype');
+}
+
+/* ----------------------------宋---------------------------- */
+/* @font-face {
+   font-family: 'FZS';
+   font-weight: 400;
+   font-display: swap;
+   src: url('/fonts/FZXSS.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'FZS';
+   font-weight: 500;
+   font-display: swap;
+   src: url('/fonts/FZZYS.TTF') format('truetype');
+} */
+
+
+div { font-weight: 400; }	/* 普通元素在引入 400 字重时*/
+
+#site-title, #site-subtitle {  /* 站点标题和副标题特别处理 */
+    font-family: 'Genkaimincho', serif !important;
+}
+
+body {
+   font-family: 'Times New Roman', 'FZS';
+   font-size: 16px;
+}
+
+h1 {
+   font-weight: 500;
+   font-family: 'AGaramondPro', 'ZKTQingKJF', 'Times New Roman', 'FZS';
+}
+
+h2 {
+   font-weight: 500;
+   font-family: 'AGaramondPro', 'ZKTQingKJF', 'Times New Roman', 'FZS';
+}
+
+h3 {
+   font-weight: 500;
+   font-family: 'AGaramondPro', 'ZKTQingKJF', 'Times New Roman', 'FZS';
+}
+
+h4 {
+   font-weight: 500;
+   font-family: 'AGaramondPro', 'ZKTQingKJF', 'Times New Roman', 'FZS';
+}
+
+h5 {
+   font-weight: 500;
+   font-family: 'AGaramondPro', 'ZKTQingKJF', 'Times New Roman', 'FZS';
+}
+
+h6 {
+   font-weight: 500;
+   font-family: 'AGaramondPro', 'ZKTQingKJF', 'Times New Roman', 'FZS';
+}

@@ -1,0 +1,10 @@
+# --------------------------------------
+# Footer Settings
+# --------------------------------------
+
+footer:
+  owner:
+    enable: true
+    since: 2024 # 底部
+  # custom_text: <span id="runtime"></span>
+  copyright: false # Copyright of theme and framework

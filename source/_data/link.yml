@@ -1,0 +1,15 @@
+- class_name: 友情鏈接
+  class_desc: 好盆友們在這裏～
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+      
+- class_name: 网站
+  class_desc: 网站
+  link_list:
+    - name: name
+      link: https://www.youtube.com/
+      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+      descr: descr

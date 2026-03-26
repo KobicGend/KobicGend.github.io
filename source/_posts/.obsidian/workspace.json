@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "fba83311406a3224",
+    "type": "split",
+    "children": [
+      {
+        "id": "bca7409cb55415c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8432ceed3c16502",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/Myblog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Myblog"
+            }
+          },
+          {
+            "id": "c4b2cba5c341039d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "other/_other/_傅皓政《邏輯》.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_傅皓政《邏輯》"
+            }
+          },
+          {
+            "id": "23d3fc510a750a5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "music/_hello_world.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_hello_world"
+            }
+          },
+          {
+            "id": "42b2c1d2c24f08a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "other/_other/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "15641bc59a98ee17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts_diary-zhuji/diary-zhuji-week111 (Mar.23 - Mar.29).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "diary-zhuji-week111 (Mar.23 - Mar.29)"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e3b5db04f1335a07",
+    "type": "split",
+    "children": [
+      {
+        "id": "40dce6db3b7a6be6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8e32dc57dcbf0b1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2076397c1f46170d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "公园",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "809954b5a320e1db",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 254.50426483154297
+  },
+  "right": {
+    "id": "bd6cf22026f342c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9d6557e7f92c76b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d149acceb5d3505c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts_daxuenotes/notes_信號與系統_Signals&Systems/notes_Signals&Systems_5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "notes_Signals&Systems_5 的反向链接列表"
+            }
+          },
+          {
+            "id": "d7da436ce3c59727",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "other/_单片机.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _单片机"
+            }
+          },
+          {
+            "id": "b07755a3b8632673",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts_diary-zhuji/diary-zhuji-week111 (Mar.23 - Mar.29).md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "diary-zhuji-week111 (Mar.23 - Mar.29) 的大纲"
+            }
+          },
+          {
+            "id": "794181701590a3a6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "15641bc59a98ee17",
+  "lastOpenFiles": [
+    "other/_other/未命名.md",
+    "posts_diary-zhuji/diary-zhuji-week111 (Mar.23 - Mar.29).md",
+    "other/_other/定性研究方法.md",
+    "posts_diary-zhuji/diary-zhuji-week110 (Mar.16 - Mar.22).md",
+    "other/_other/未命名 1.md",
+    "blog/Myblog.md",
+    "posts_diary-zhuji/diary-zhuji-week112 (Mar.30 - Apr.5).md",
+    "posts_diary-zhuji/diary-zhuji-week107 (Feb.23 - Mar.1).md",
+    "music/_hello_world.md",
+    "music/_プリズム キューブ.md",
+    "other/_other/_傅皓政《邏輯》.md",
+    "859f645a471f06a3fec32e21df311aa2.png",
+    "posts_diary-zhuji/diary-zhuji-week109 (Mar.9 - Mar.15).md",
+    "posts_diary-zhuji/diary-zhuji-week105 (Feb.9 - Feb.15).md",
+    "posts_diary-zhuji/diary-zhuji-week101 (Janu.12 - Janu.18).md",
+    "posts_diary-zhuji/diary-zhuji-week104 (Feb.2 - Feb.8).md",
+    "posts_diary-zhuji/diary-zhuji-week108 (Mar.2 - Mar.8).md",
+    "posts_diary-zhuji/diary-zhuji-week106 (Feb.16 - Feb.22).md",
+    "music/wotaku feat. 初音ミク - ジェヘナ.md",
+    "posts_acm/_other/校赛题目备选.md",
+    "other/_other/_240609.md",
+    "Pasted image 20260313235758.png",
+    "posts_diary-zhuji/diary-zhuji-week102 (Janu.19 - Janu.25).md",
+    "posts_diary-zhuji/diary-zhuji-week96 (Dec.8 - Dec.14).md",
+    "other/_other/_haloword.md",
+    "other/_other/_知乎.md",
+    "other/_other/_CET6.md",
+    "other/_other",
+    "posts_acm/_V2.0/题解",
+    "posts_acm/_V2.0/计算几何",
+    "posts_acm/_V2.0/数据结构 Data Structure",
+    "posts_acm/_V2.0/数学",
+    "posts_acm/_V2.0/字符串",
+    "posts_acm/_V2.0/基础算法",
+    "posts_acm/_V2.0/图论 - 树",
+    "posts_acm/_V2.0/图论",
+    "posts_acm/_V2.0/1.py",
+    "_SceneTextEditing/img/Pasted image 20260128134513.png",
+    "_SceneTextEditing/img/Pasted image 20260128132754.png",
+    "_SceneTextEditing/img/Pasted image 20260128124927.png",
+    "Pasted image 20260128123955.png",
+    "_SceneTextEditing/img/Pasted image 20260128121933.png",
+    "_SceneTextEditing/img/Pasted image 20260128121604.png",
+    "_SceneTextEditing/img/Pasted image 20260128112722.png",
+    "_SceneTextEditing/img/Pasted image 20260128120305.png",
+    "未命名.canvas",
+    "posts_acm/ACM-TuLun/未命名.canvas"
+  ]
+}

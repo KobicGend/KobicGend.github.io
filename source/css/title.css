@@ -1,0 +1,124 @@
+/* 文章页H1-H6图标样式效果 */
+/* 风车转动速度，数字越小转动越快 */
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    font-family: "FontAwesome" !important;   /* 强制使用 FontAwesome 字体族 */
+    -webkit-animation: ccc 1.6s linear infinite ;
+    animation: ccc 1.6s linear infinite ;
+}
+@-webkit-keyframes ccc {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-1turn);   /* -1turn 为逆时针转动，1turn 为顺时针转动 */
+        transform: rotate(-1turn)
+    }
+}
+@keyframes ccc {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-1turn);
+        transform: rotate(-1turn)
+    }
+}
+
+/* 小风车颜色、大小修改 */
+#content-inner.layout h1::before {
+    color: #ef50a8 ;
+    margin-top: -0.9rem;
+    margin-left: -1.55rem;
+    font-size: 2.5rem; /* 1.3 */
+}
+#content-inner.layout h2::before {
+    color: #fb7061 ;
+    margin-left: -1.35rem;
+    font-size: 1.9rem; /* 1.1 */
+    margin-top: -0.8rem; /* -0.12 */
+}
+#content-inner.layout h3::before {
+    color: #ffbf00 ;
+    margin-left: -1.22rem;
+    font-size: 1.5rem; /* 0.95 */
+    margin-top: -0.6rem; /* -0.09 */
+}
+#content-inner.layout h4::before {
+    color: #a9e000 ;
+    margin-left: -1.05rem;
+    font-size: 1.23rem; /* 0.8 */
+    margin-top: -0.4rem; /* -0.09 */
+}
+#content-inner.layout h5::before {
+    color: #57c850 ;
+    margin-left: -0.9rem;
+    font-size: 1.0rem; /* 0.7 */
+    margin-top: 0.0rem;
+}
+#content-inner.layout h6::before {
+    color: #5ec1e0 ;
+    margin-left: -0.9rem;
+    font-size: 0.9rem; /* 0.66 */
+    margin-top: 0.0rem;
+}
+
+/* 鼠标碰到标题时，小风车跟随标题变色，转速变慢。鼠标离开恢复转速。也可以设置为 none 鼠标碰到停止转动 */
+#content-inner.layout h1:hover, #content-inner.layout h2:hover, #content-inner.layout h3:hover, #content-inner.layout h4:hover, #content-inner.layout h5:hover, #content-inner.layout h6:hover {
+    color: #49b1f5 ;
+}
+#content-inner.layout h1:hover::before, #content-inner.layout h2:hover::before, #content-inner.layout h3:hover::before, #content-inner.layout h4:hover::before, #content-inner.layout h5:hover::before, #content-inner.layout h6:hover::before {
+    color: #49b1f5 ;
+    -webkit-animation: ccc 3.2s linear infinite ;
+    animation: ccc 3.2s linear infinite ;
+}
+
+/* 强制给标题前的图标设置正确的权重 */
+/* 强制覆盖 Butterfly 的标题前缀样式 */
+.container h1::before, 
+#page-header.post-bg h1.post-title::before {
+    /* 1. 尝试包含所有可能的字体族名称 */
+    
+    /* 2. 必须是 900 */
+    font-weight: 900 !important;
+    
+    /* 3. 强制指定图标编码 */
+    /* content: "\f863" !important; */
+    
+    /* 4. 基础渲染优化 */
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+h2 {
+    font-size: 1.9em;
+    font-weight: 500;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+h4 {
+    font-size: 1.23em;
+    font-weight: 500;
+}
+h5 {
+    font-size: 1.0em;
+    font-weight: 500;
+}
+h6 {
+    font-size: 1.0em;
+    font-weight: 500;
+}
+
+
+

@@ -1,0 +1,36 @@
+# --------------------------------------
+# Global Settings
+# --------------------------------------
+
+anchor:
+  # When you scroll, the URL will update according to header id.
+  auto_update: true
+  # Click the headline to scroll and update the anchor
+  click_to_scroll: true
+
+photofigcaption: false
+
+copy:
+  enable: true
+  # Add the copyright information after copied content
+  copyright:
+    enable: false
+    limit_count: 150
+
+# Need to install the hexo-wordcount plugin
+wordcount:
+  enable: true
+  # Display the word count of the article in post meta
+  post_wordcount: true
+  # Display the time to read the article in post meta
+  min2read: true
+  # Display the total word count of the website in aside's webinfo
+  total_wordcount: true
+
+# Busuanzi count for PV / UV in site
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+

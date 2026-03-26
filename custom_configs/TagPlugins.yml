@@ -1,0 +1,13 @@
+# --------------------------------------
+# Tag Plugins settings
+# --------------------------------------
+
+# Series 在頁面上顯示系列文章
+series:
+  enable: true
+  # Order by title or date
+  orderBy: 'title'
+  # Sort of order. 1, asc for ascending; -1, desc for descending
+  order: 1
+  number: true
+

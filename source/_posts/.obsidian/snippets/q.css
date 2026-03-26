@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'AGaramondPro';
+  src: url('D:/Blog/source/_posts/.obsidian/snippets/AGaramondPro-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+
+body {
+    /* --h1-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro", "字酷堂清楷体", "字酷堂清楷 简繁";
+    --h2-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro",  "字酷堂清楷体", "字酷堂清楷 简繁";
+    --h3-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro",  "字酷堂清楷体", "字酷堂清楷 简繁";
+    --h4-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro",  "字酷堂清楷体", "字酷堂清楷 简繁";
+    --h5-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro",  "字酷堂清楷体", "字酷堂清楷 简繁";
+    --h6-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro",  "字酷堂清楷体", "字酷堂清楷 简繁"; */
+    --h1-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro", "字酷堂清楷 简繁", "字酷堂清楷体";
+    --h2-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro", "字酷堂清楷 简繁", "字酷堂清楷体";
+    --h3-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro", "字酷堂清楷 简繁", "字酷堂清楷体";
+    --h4-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro", "字酷堂清楷 简繁", "字酷堂清楷体";
+    --h5-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro", "字酷堂清楷 简繁", "字酷堂清楷体";
+    --h6-font: Minion Pro Cond, AGaramondPro, "Adobe Garamond Pro", "字酷堂清楷 简繁", "字酷堂清楷体";
+    --h1-weight: normal;
+    --h2-weight: normal;
+    --h3-weight: normal;
+    --h4-weight: normal;
+    --h5-weight: normal;
+    --h6-weight: normal;
+    --h1-style: normal;
+    --h2-style: normal;
+    --h3-style: normal;
+    --h4-style: normal;
+    --h5-style: normal;
+    --h6-style: normal;
+    --h1-variant: normal;
+    --h2-variant: normal;
+    --h3-variant: normal;
+    --h4-variant: normal;
+    --h5-variant: normal;
+    --h6-variant: normal;
+}

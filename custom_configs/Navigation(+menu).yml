@@ -1,0 +1,46 @@
+# --------------------------------------
+# Navigation Settings
+# --------------------------------------
+
+nav:
+  # Navigation bar logo image
+  logo:
+  display_title: true
+  # Whether to fix navigation bar
+  fixed: false
+    
+menu:
+  # Tags: /tags/ || fas fa-tags
+  # categories: /categories/ || fas fa-th
+  記事簿 || fa fa-book || hide:
+    《中外历史纲要》: /posts/96478f8a.html || fas fa-book
+    《主机註記》: /categories/日記/主机註記/ || fa fa-book
+  筆記本 || fas fa-book-open || hide:
+    XCPC: /posts/e7eea71f.html || fa fa-quran
+    大學筆記: /notes/ || fa fa-tanakh
+    其它筆記: /notes/ || fa fa-tanakh
+  作品集 || fa fa-palette || hide: 
+    CUC-Radio: /categories/作品/微信公眾號/ || fa fa-radio
+    篆刻作品展: /posts/667c5340.html || fa fa-stamp
+  # 檔案館: /archives/ || fa fa-archive
+  工具箱 || fa fa-toolbox ||hide:
+    Music: /categories/Music/ || fas fa-music
+    詩詞: /categories/Poetry/ || fas fa-guitar
+  # 提問箱: /askbox/ || fa fa-comment
+  # schedule: /schedule/ || fas fa-calendar
+  # sitemap: /sitemap.xml || fas fa-sitemap
+  # Home: / || fas fa-home
+  # Archives: /archives/ || fas fa-archive
+  # Categories: /categories/ || fas fa-folder-open
+  更多||fas fa-list||hide:
+    旅遊足跡: /project/map/index.html || fas fa-map
+    地鐵圖: /posts/c096c313.html || fas fa-subway
+    賽博空調: /project/eikon/ || fas fa-wind
+    中午吃什么: /project/tabe/ || fas fa-utensils
+    进制转换: /project/baseconversion/ || fas fa-exchange-alt
+    尖团音识别: /project/jiantuanyin/ || fas fa-language
+    # Music: /music/ || fa fa-music
+  好盆友: /link/ || fas fa-link
+  關於小明: /about/ || fas fa-user
+  # Movie: /movies/ || fas fa-video
+  # About: /about/ || fas fa-heart
