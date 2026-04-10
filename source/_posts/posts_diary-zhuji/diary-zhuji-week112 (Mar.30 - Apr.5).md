@@ -8,12 +8,7 @@ categories:
     - 主机註記
 cover: /img/zhuji-cover.webp
 top_img: /img/zhuji.webp
-abbrlink: 2529dc28
-password: Shusei
-abstract: This blog is encrypted. 本文已加密。
-message: Please enter the password. 請輸入訪問密碼。
-wrong_pass_message: 'Incorrect password, please try again. 密码不正確，請重試。'
-wrong_hash_message: Bug found!
+abbrlink:
 date: 2026-03-31 06:30:00
 updated: 2026-03-31 06:30:00
 ---

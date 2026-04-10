@@ -18,7 +18,12 @@ hexo clean && hexo generate && gulp && hexo deploy
 hexo clean && hexo server
 ```
 
-
+```
+git add .
+git commit -m "backup"
+git push
+```
+git push -u backup hexo:main
 
 ## 从零开始
 
@@ -281,7 +286,7 @@ encrypt: # hexo-blog-encrypt
 
 ### 修改底部数量
 
-D:\Blog\themes\butterfly\layout\includes\pagination.pug
+\themes\butterfly\layout\includes\pagination.pug
 
 ```pug
   var options = {
@@ -291,6 +296,23 @@ D:\Blog\themes\butterfly\layout\includes\pagination.pug
     escape: false
   }
 ```
+
+在文件中找到 `!=paginator(...)` 代码行，调整以下两个关键数值：
+
+* **`mid_size`**: 当前页左右两侧显示的页码数（增加此值可让中间页码更连续）。
+* **`end_size`**: 首页和尾页显示的页码数（增加此值可让两端页码显示更多）。
+
+```pug
+//- 将 mid_size 改为 3，end_size 改为 2
+!=paginator({
+  prev_text: '<i class="fas fa-chevron-left"></i>',
+  next_text: '<i class="fas fa-chevron-right"></i>',
+  mid_size: 3,
+  end_size: 2
+})
+```
+
+
 
 ## Debug
 

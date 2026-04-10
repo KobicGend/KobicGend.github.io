@@ -202,16 +202,6 @@ top left right bottom
 
 list-item none inline block table
 
-&emsp;&emsp;好好mongodb+srv://KobicGend:3Rg5Rd6Yh78Uk@blog.7dl8osd.mongodb.net/?retryWrites=true&w=majority&appName=Blog
-
-
-
-
-
-這是一條 _測試_ __評論__ ，支持 $\LaTeX$。
-
-<img src="E:\Downloads\1.png" width="250px" height="250px"/>
-
 
 
 
