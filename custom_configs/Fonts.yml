@@ -3,7 +3,7 @@
 font:
   global-font-size:
   code-font-size:
-  font-family: AGaramondPro, ZKTQingKJF, Times New Roman, FZS
+  font-family: AGaramondPro, ZKTQingKJF, ZKTQingK, Times New Roman, FZS
   code-font-family:
 
 # Font settings for the site title and site subtitle

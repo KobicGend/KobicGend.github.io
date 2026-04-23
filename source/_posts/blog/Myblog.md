@@ -20,7 +20,7 @@ hexo clean && hexo server
 
 ```
 git add .
-git commit -m "260419backup"
+git commit -m "260423backup"
 git push
 ```
 git push -u backup hexo:main
@@ -313,7 +313,22 @@ encrypt: # hexo-blog-encrypt
 ```
 
 
+### 腳註
 
+```
+npm un hexo-renderer-marked --save
+npm i hexo-renderer-markdown-it --save
+```
+
+**在 `_config.yml` 加入配置：** 確保腳註功能被啟用：
+
+```
+markdown:
+  render:
+    html: true
+  plugins:
+    - markdown-it-footnote
+```
 ## Debug
 
 ### 提示“warning: LF will be replaced by CRLF”

@@ -111,7 +111,11 @@ deploy:
   repository: https://github.com/KobicGend/KobicGend.github.io.git
   branch: master
 
-
+markdown:
+  render:
+    html: true
+  plugins:
+    - markdown-it-footnote
 # markdown:
 #   render:
 #     html: true
