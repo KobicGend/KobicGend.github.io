@@ -16,13 +16,13 @@ updated: 2025-04-15 06:30:00
 
 # 第 62 周主机註記
 
-## 月曜日 (Apr.14)
+## 月 (Apr.14)
 
 ### 穩定
 
 我的心情也太不穩定了。
 
-## 火曜日 (Apr.15)
+## 火 (Apr.15)
 
 ### 掉電
 
@@ -30,19 +30,19 @@ updated: 2025-04-15 06:30:00
 
 Sometimes it lasts in love, but sometimes it hurts instead. ——Someone Like You
 
-## 水曜日 (Apr.16)
+## 水 (Apr.16)
 
 
-## 木曜日 (Apr.17)
+## 木 (Apr.17)
 
 
-## 金曜日 (Apr.18)
+## 金 (Apr.18)
 
 
-## 土曜日 (Apr.19)
+## 土 (Apr.19)
 
 
-## 日曜日 (Apr.20)
+## 日 (Apr.20)
 
 ### 退出
 

@@ -20,7 +20,7 @@ hexo clean && hexo server
 
 ```
 git add .
-git commit -m "260423backup"
+git commit -m "260426backup"
 git push
 ```
 git push -u backup hexo:main
