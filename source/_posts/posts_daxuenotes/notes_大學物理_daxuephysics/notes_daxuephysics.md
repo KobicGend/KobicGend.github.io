@@ -4,15 +4,15 @@ tags:
   - 筆記
   - 工科
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_大學物理_daxuephysics
 description: 大学物理笔记。
 cover: /img/posts/notes/notes-daxuephysics.webp
 top_img: /img/posts/notes/notes-daxuephysics.webp
 aside: true
 abbrlink: 711799f6
 date: 2024-06-17 12:04:51
-updated: 2024-06-24 0:50:57
+updated: 2024-06-24 00:50:57
 ---
 
 *[返回目录](../notes/)*

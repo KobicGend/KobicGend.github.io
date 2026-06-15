@@ -268,7 +268,7 @@ $$
 &
 \pmb{A}=\begin{pmatrix}a & b\\c & d\end{pmatrix} 
 \Rightarrow
-\pmb{A}^{-1}=\cfrac{1}{ad-cb}\begin{pmatrix}d &-b\\-c & a\end{pmatrix} \\
+\pmb{A}^{-1}=\dfrac{1}{ad-cb}\begin{pmatrix}d &-b\\-c & a\end{pmatrix} \\
 
 & \pmb{E}^{-1} = \pmb{E} \\
 

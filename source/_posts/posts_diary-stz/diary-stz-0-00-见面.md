@@ -4,14 +4,13 @@ description: 《中外历史纲要》終於要跟大家見面了！
 tags:
   - 中外历史纲要
 categories:
-  - - 日記
-    - 高中回憶
+  - posts_diary-stz
 abbrlink: 96478f8a
-date: 2024-03-25 13:25:00
-updated: 2024-03-25 13:25:00
 series: 中外历史纲要
 cover: /img/stz.webp
 top_img: false
+date: 2024-03-25 13:25:00
+updated: 2024-03-25 13:25:00
 ---
 
 《中外历史纲要》終於要跟大家見面了！

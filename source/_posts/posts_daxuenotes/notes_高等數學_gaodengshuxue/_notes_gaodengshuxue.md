@@ -609,8 +609,8 @@ $$
 
 常见级数如
 
-- **几何级数 (geometric series)** $\sum\limits_{n=1}^{\infty}q^{n-1}$：$q\neq1$ 时，$S_n=\dfrac{1-q^n}{1-q}$，所以这个级数在 $|q|<1$ 时收敛，收敛于 $\cfrac{q}{1-q}$，在 $|q| \geqslant 1$ 时发散。
-- **调和级数 (harmonic series)** $\sum\limits_{n=1}^{\infty}\dfrac{1}{n}$：$\left| \sum \limits_{k=m+1}^{2m} \dfrac{1}{k} \right| \geqslant \left| \sum \limits_{k=m+1}^{2m} \dfrac{1}{2m} \right|=\dfrac{1}{2}$，因此取 $\varepsilon=\cfrac{1}{2}$，由柯西收敛准则知发散。此外，调和级数是刚刚好发散的。 
+- **几何级数 (geometric series)** $\sum\limits_{n=1}^{\infty}q^{n-1}$：$q\neq1$ 时，$S_n=\dfrac{1-q^n}{1-q}$，所以这个级数在 $|q|<1$ 时收敛，收敛于 $\dfrac{q}{1-q}$，在 $|q| \geqslant 1$ 时发散。
+- **调和级数 (harmonic series)** $\sum\limits_{n=1}^{\infty}\dfrac{1}{n}$：$\left| \sum \limits_{k=m+1}^{2m} \dfrac{1}{k} \right| \geqslant \left| \sum \limits_{k=m+1}^{2m} \dfrac{1}{2m} \right|=\dfrac{1}{2}$，因此取 $\varepsilon=\dfrac{1}{2}$，由柯西收敛准则知发散。此外，调和级数是刚刚好发散的。 
 
 
 ### §5.1.3　正项级数　
@@ -633,10 +633,10 @@ $$
 \hline
 & \forall n>n_{0},\ u_n \leqslant  cv_n \\
 \text{比较判别法}
-& \lim\limits_{n\to\infty}\cfrac{u_n}{v_n } \in [0,+\infty) 
+& \lim\limits_{n\to\infty}\dfrac{u_n}{v_n } \in [0,+\infty) 
 & U \Leftarrow V
 & U \Rightarrow V \\
-& \forall n>n_{0},\ \cfrac{u_{n+1}}{u_n}\leqslant\cfrac{v_{n+1}}{v_n}
+& \forall n>n_{0},\ \dfrac{u_{n+1}}{u_n}\leqslant\dfrac{v_{n+1}}{v_n}
 \end{array}
 $$
 
@@ -647,7 +647,7 @@ $$
 \text{判别法} & \text{条件} & \text{收敛} & \text{发散} \\
 \hline
 \text{d'Alembert判别法}
-& \rho=\lim\limits_{n\to \infty}\cfrac{u_{n+1}}{u_n}
+& \rho=\lim\limits_{n\to \infty}\dfrac{u_{n+1}}{u_n}
 & \rho<1
 & \rho>1
 \\
@@ -775,15 +775,15 @@ x^+=\max (x,0),x^-=-\min (x,0) .
 
 所以有
 
-x^+=\cfrac{|x|+x}2=\begin{cases} x, &\ \ \ x>0 \\ 0, &\ \ \ x\leq 0 \\ \end{cases}
+x^+=\dfrac{|x|+x}2=\begin{cases} x, &\ \ \ x>0 \\ 0, &\ \ \ x\leq 0 \\ \end{cases}
 
-x^-=\cfrac{|x|-x}2= \begin{cases} -x,&x<0\\ 0,&x\geq0 \end{cases}
+x^-=\dfrac{|x|-x}2= \begin{cases} -x,&x<0\\ 0,&x\geq0 \end{cases}
 
 ### 4.3 引理
 
 (1)如果级数 \sum\limits_{n=1}^{\infty}u_n 绝对收敛，那么 \sum\limits_{n=1}^{\infty}u_n^+ 和 \sum\limits_{n=1}^{\infty}u_n ^- 均收敛.
 
-(2)如果级数 \sum\limits_{n=1}^{\infty}u_n 条件收敛(例如 \sum\limits_{n=1}^{\infty}\cfrac{(-1)^n}{n}, 收敛但不绝对收敛)，那么 \sum\limits_{n=1}^{\infty}u_n^+ 和 \sum\limits_{n=1}^{\infty}u_n ^- 均发散于 +\infty .
+(2)如果级数 \sum\limits_{n=1}^{\infty}u_n 条件收敛(例如 \sum\limits_{n=1}^{\infty}\dfrac{(-1)^n}{n}, 收敛但不绝对收敛)，那么 \sum\limits_{n=1}^{\infty}u_n^+ 和 \sum\limits_{n=1}^{\infty}u_n ^- 均发散于 +\infty .
 
 ### 4.4 狄利克雷重排定理
 
@@ -825,11 +825,11 @@ c_nX^n= \sum\limits_{k+l=n}a_kX^k\cdot b_lX^l=\bigg(\sum\limits_{k+l=n}a_kb_l\bi
 
 **(1)** \sum\limits_{n=0}^{\infty}a_n **和** \sum\limits_{n=0}^{\infty}b_n **收敛并不一定可以保证柯西乘积收敛.**
 
-例如，我们取 a_n=b_n=\cfrac{(-1)^n}{\sqrt{n}} ,\hspace{20pt}\forall n \in \mathbb{Z_{>0}}
+例如，我们取 a_n=b_n=\dfrac{(-1)^n}{\sqrt{n}} ,\hspace{20pt}\forall n \in \mathbb{Z_{>0}}
 
-那么由莱布尼茨判别法和这两个级数收敛可以知道 c_n=\sum_\limits{k+l=n}a_kb_l=(-1)^n\sum\limits_{k=1}^n\cfrac{1}{\sqrt{k(n-k)}}
+那么由莱布尼茨判别法和这两个级数收敛可以知道 c_n=\sum_\limits{k+l=n}a_kb_l=(-1)^n\sum\limits_{k=1}^n\dfrac{1}{\sqrt{k(n-k)}}
 
-所以，我们由基本不等式可以得到 |c_n|=\sum\limits_{k=1}^n\cfrac{1}{\sqrt{k(n-k)}}\geq \sum\limits_{k=1}^n\cfrac2{k+(n-k)}=\cfrac {2(n-1)}n\geq 1\hspace{20pt} \forall n \geq2
+所以，我们由基本不等式可以得到 |c_n|=\sum\limits_{k=1}^n\dfrac{1}{\sqrt{k(n-k)}}\geq \sum\limits_{k=1}^n\cfrac2{k+(n-k)}=\dfrac {2(n-1)}n\geq 1\hspace{20pt} \forall n \geq2
 
 因此， \sum\limits_{n=0}^{\infty}c_n 是发散的.
 
@@ -837,23 +837,23 @@ c_nX^n= \sum\limits_{k+l=n}a_kX^k\cdot b_lX^l=\bigg(\sum\limits_{k+l=n}a_kb_l\bi
 
 例如： a_0=b_0=1 ,当 n\geq 1 时，
 
-a_n=-\left(\cfrac 32\right)^n ， b_n=\left(\cfrac32\right)^{n-1}\left(2^n+\cfrac1{2^{n+1}}\right)
+a_n=-\left(\dfrac 32\right)^n ， b_n=\left(\cfrac32\right)^{n-1}\left(2^n+\cfrac1{2^{n+1}}\right)
 
-由莱布尼茨判别法和 a_n,b_n 都是发散的，我们可以得到 c_n=\sum_\limits{k+l=n}a_kb_l \\= \left(\cfrac32\right)^{n-1}\left(2^n+\cfrac1{2^{n+1}}\right)-\left(\cfrac 32\right)^n -\left(\cfrac{3}{2}\right)^{n-1}\sum_\limits{k=1}^{n-1}\left(2^k+\cfrac1{2^{k+1}}\right)\\ =\left(\cfrac32\right)^{n-1}\left(2^n+\cfrac1{2^{n+1}}\right)-\left(\cfrac 32\right)^n-\left(\cfrac{3}{2}\right)^{n-1}\left(2^{n}-\cfrac32-\cfrac1{2^{n}}\right)\\ =\left(\cfrac32\right)^{n-1}\cdot\cfrac1{2^{n+1}}+\cfrac12\left(\cfrac34\right)^{n-1} \\=\left(\cfrac34\right)^{n}
+由莱布尼茨判别法和 a_n,b_n 都是发散的，我们可以得到 c_n=\sum_\limits{k+l=n}a_kb_l \\= \left(\cfrac32\right)^{n-1}\left(2^n+\cfrac1{2^{n+1}}\right)-\left(\dfrac 32\right)^n -\left(\dfrac{3}{2}\right)^{n-1}\sum_\limits{k=1}^{n-1}\left(2^k+\cfrac1{2^{k+1}}\right)\\ =\left(\cfrac32\right)^{n-1}\left(2^n+\cfrac1{2^{n+1}}\right)-\left(\dfrac 32\right)^n-\left(\dfrac{3}{2}\right)^{n-1}\left(2^{n}-\cfrac32-\cfrac1{2^{n}}\right)\\ =\left(\cfrac32\right)^{n-1}\cdot\cfrac1{2^{n+1}}+\cfrac12\left(\cfrac34\right)^{n-1} \\=\left(\cfrac34\right)^{n}
 
 ### 5.3 狄利克雷级数
 
-> 设 s\in\mathbb{R} ,形如 \sum\limits_{n=0}^{\infty}\cfrac{a_n}{n^s} 的级数被称为**狄利克雷级数(Dirichlet series)**.
+> 设 s\in\mathbb{R} ,形如 \sum\limits_{n=0}^{\infty}\dfrac{a_n}{n^s} 的级数被称为**狄利克雷级数(Dirichlet series)**.
 
-现在我们考虑两个狄利克雷级数 \sum\limits_{n=0}^{\infty}\cfrac{a_n}{n^s} 和 \sum\limits_{n=0}^{\infty}\cfrac{b_n}{n^s} 的乘积，如果结果也是一个狄利克雷级数，不妨记为 \sum\limits_{n=0}^{\infty}\cfrac{c_n}{n^s} ，那么 c_n 应该是多少呢？
+现在我们考虑两个狄利克雷级数 \sum\limits_{n=0}^{\infty}\dfrac{a_n}{n^s} 和 \sum\limits_{n=0}^{\infty}\dfrac{b_n}{n^s} 的乘积，如果结果也是一个狄利克雷级数，不妨记为 \sum\limits_{n=0}^{\infty}\dfrac{c_n}{n^s} ，那么 c_n 应该是多少呢？
 
 ### 5.4 狄利克雷乘积
 
-其实我们可以仿照柯西乘积来考虑狄利克雷乘积，因此自然可以想到把两个狄利克雷级数 \sum\limits_{n=0}^{\infty}\cfrac{a_n}{n^s} 和 \sum\limits_{n=0}^{\infty}\cfrac{b_n}{n^s} 中分母乘积相等的那些项合并起来.
+其实我们可以仿照柯西乘积来考虑狄利克雷乘积，因此自然可以想到把两个狄利克雷级数 \sum\limits_{n=0}^{\infty}\dfrac{a_n}{n^s} 和 \sum\limits_{n=0}^{\infty}\dfrac{b_n}{n^s} 中分母乘积相等的那些项合并起来.
 
-举个具体的例子吧，比如我们现在想要知道 \sum\limits_{n=0}^{\infty}\cfrac{c_n}{n^s} 中第 6 项分子 c_6 是多少.
+举个具体的例子吧，比如我们现在想要知道 \sum\limits_{n=0}^{\infty}\dfrac{c_n}{n^s} 中第 6 项分子 c_6 是多少.
 
-c_6 的对应分母是 6^s ，那么我们就要看 \sum\limits_{n=0}^{\infty}\cfrac{a_n}{n^s} 和 \sum\limits_{n=0}^{\infty}\cfrac{b_n}{n^s} 中哪些项的分母乘起来可以凑出 6^s .
+c_6 的对应分母是 6^s ，那么我们就要看 \sum\limits_{n=0}^{\infty}\dfrac{a_n}{n^s} 和 \sum\limits_{n=0}^{\infty}\dfrac{b_n}{n^s} 中哪些项的分母乘起来可以凑出 6^s .
 
 6 的素因子有 1，2，3，6 ，所以分母 6^s=1^s\cdot6^s=2^s\cdot 3^s
 
@@ -870,7 +870,7 @@ c_6 的对应分母是 6^s ，那么我们就要看 \sum\limits_{n=0}^{\inft
 
 - **幂级数** $\sum \limits_{n=0}^{\infty} a_{n}x^{n}$
 - **幂级数的系数** $\lbrace a_{n} \rbrace$
-- **收敛域** 使得这个幂极数收敛的 $x$ 的取值域，根据 Abel 定理，这个收敛域的形式是 $|x|<R$，其中等号的选取需要取决于幂级数在 $x=\pm R$ 处的收敛性，这里的 $R$ 称为收敛半径，设 $\rho=\lim\limits_{ n \to \infty } \left| \cfrac{a_{n+1}}{a_{n}}\right|$，则 $R=\cfrac{1}{\rho}$，区间 $(-R,R)$ 称为收敛区间
+- **收敛域** 使得这个幂极数收敛的 $x$ 的取值域，根据 Abel 定理，这个收敛域的形式是 $|x|<R$，其中等号的选取需要取决于幂级数在 $x=\pm R$ 处的收敛性，这里的 $R$ 称为收敛半径，设 $\rho=\lim\limits_{ n \to \infty } \left| \dfrac{a_{n+1}}{a_{n}}\right|$，则 $R=\dfrac{1}{\rho}$，区间 $(-R,R)$ 称为收敛区间
 
 
 
@@ -893,10 +893,10 @@ $$
 \hline
 & \forall n>n_{0},\ u_n \leqslant  cv_n \\
 \text{比较判别法}
-& \lim\limits_{n\to\infty}\cfrac{u_n}{v_n } \in [0,+\infty) 
+& \lim\limits_{n\to\infty}\dfrac{u_n}{v_n } \in [0,+\infty) 
 & U \Leftarrow V
 & U \Rightarrow V \\
-& \forall n>n_{0},\ \cfrac{u_{n+1}}{u_n}\leqslant\cfrac{v_{n+1}}{v_n}
+& \forall n>n_{0},\ \dfrac{u_{n+1}}{u_n}\leqslant\dfrac{v_{n+1}}{v_n}
 \end{array}
 $$
 
@@ -907,7 +907,7 @@ $$
 \text{判别法} & \text{条件} & \text{收敛} & \text{发散} \\
 \hline
 \text{d'Alembert判别法}
-& \rho=\lim\limits_{n\to \infty}\cfrac{u_{n+1}}{u_n}
+& \rho=\lim\limits_{n\to \infty}\dfrac{u_{n+1}}{u_n}
 & \rho<1
 & \rho>1
 \\
@@ -933,7 +933,7 @@ $$
 
 ## §5.2　幂级数
 
-幂级数 $\sum \limits_{n=0}^{\infty} a_{n}x^{f(n)}$，置 $\rho=\lim\limits_{ n \to \infty } \left| \cfrac{a_{n+1}x^{f(n+1)}}{a_{n}x^{f(n)}}\right|=1$，得收敛半径 $R=|x|$，收敛区间 $(-R,R)$，再算幂级数在 $x=\pm R$ 处的收敛性，如果收敛就将开区间改为闭区间，得到 **收敛域**。
+幂级数 $\sum \limits_{n=0}^{\infty} a_{n}x^{f(n)}$，置 $\rho=\lim\limits_{ n \to \infty } \left| \dfrac{a_{n+1}x^{f(n+1)}}{a_{n}x^{f(n)}}\right|=1$，得收敛半径 $R=|x|$，收敛区间 $(-R,R)$，再算幂级数在 $x=\pm R$ 处的收敛性，如果收敛就将开区间改为闭区间，得到 **收敛域**。
 
 **函数展开成幂级数** 
 
@@ -974,7 +974,7 @@ $$
 
 \left\{
 \begin{array}{ll}
-\cfrac{ x^{k+1}}{k+1}+C, & \text{if }k\ne-1 \\
+\dfrac{ x^{k+1}}{k+1}+C, & \text{if }k\ne-1 \\
 \ln\left|x\right|+C, & \text{if }k=-1
 \end{array}\right.
 
@@ -1006,14 +1006,14 @@ $$
 
 \hline
 
-\cfrac{1}{4} (2x+\sin{2x}) +C & \cos^2x & -\sin{2x} \\
-\cfrac{1}{4} (2x-\sin{2x}) +C & \sin^2x & \sin{2x} \\
+\dfrac{1}{4} (2x+\sin{2x}) +C & \cos^2x & -\sin{2x} \\
+\dfrac{1}{4} (2x-\sin{2x}) +C & \sin^2x & \sin{2x} \\
 
 \hline
 
-x\arcsin x+\sqrt{1-x^2}+C & \arcsin x & \cfrac{1}{\sqrt{1-x^2}} \\ 
-x\arccos x-\sqrt{1-x^2}+C & \arccos x & \cfrac{-1}{\sqrt{1-x^2}} \\ 
-x\arctan x-\cfrac{1}{2}\ln{|x^2+1|}+C & \arctan x & \cfrac{1}{1+x^2} \\ 
+x\arcsin x+\sqrt{1-x^2}+C & \arcsin x & \dfrac{1}{\sqrt{1-x^2}} \\ 
+x\arccos x-\sqrt{1-x^2}+C & \arccos x & \dfrac{-1}{\sqrt{1-x^2}} \\ 
+x\arctan x-\dfrac{1}{2}\ln{|x^2+1|}+C & \arctan x & \dfrac{1}{1+x^2} \\ 
 
 \hline
 \end{array}
@@ -1035,8 +1035,8 @@ $$
 \displaystyle=\int_{0}^{\frac{\pi}{2}}{\cos^nx\mathrm{d}x}
 \displaystyle=\left\{
 \begin{array}{ll}
-\cfrac{ (n-1) !!}{n!!} & n\text{ is odd.}\\
-\cfrac{ (n-1) !!}{n!!} \cdot \cfrac{\pi}{2} & n\text{ is even.}
+\dfrac{ (n-1) !!}{n!!} & n\text{ is odd.}\\
+\dfrac{ (n-1) !!}{n!!} \cdot \dfrac{\pi}{2} & n\text{ is even.}
 \end{array}\right.
 $$
 
@@ -1063,18 +1063,18 @@ a^x & a^x\ln ^na \\
 
 x^{\mu} & \mu \left ( \mu -1 \right)  \cdots \left ( \mu -n+1 \right)  x^{\mu -n} \\
 x^{n} & n! \\
-x^{-1} &  (-1) ^n\cfrac{n!}{x^{n+1}}\\
-\cfrac{1}{x+a} 
-& \displaystyle\cfrac{ (-1) ^nn!}{ (x+a) ^{n+1}} \\
-\bs{\cfrac{1}{kx+b}}
-& \bs{\displaystyle{\cfrac{ (-1) ^{n}k^{n}n!}{ (kx+b) ^{n+1}}}} \\
+x^{-1} &  (-1) ^n\dfrac{n!}{x^{n+1}}\\
+\dfrac{1}{x+a} 
+& \displaystyle\dfrac{ (-1) ^nn!}{ (x+a) ^{n+1}} \\
+\bs{\dfrac{1}{kx+b}}
+& \bs{\displaystyle{\dfrac{ (-1) ^{n}k^{n}n!}{ (kx+b) ^{n+1}}}} \\
 
 \hline
 
 \log _ax
 & \displaystyle\frac{\left ( -1 \right)  ^{n-1}\left ( n-1 \right)  !}{x^n\ln a} \\
 \ln (kx+b) 
-& \displaystyle\cfrac{ (-1) ^{n-1}k^n (n-1) !}{ (kx+b) ^{n}} \\
+& \displaystyle\dfrac{ (-1) ^{n-1}k^n (n-1) !}{ (kx+b) ^{n}} \\
 
 \hline
 

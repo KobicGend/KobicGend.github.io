@@ -5,8 +5,8 @@ tags:
   - 數學
   - 信號與系統
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_信號與系統_Signals&Systems
 description: 信號與系統 第一章 信號與系統的基本概念
 cover: /img/posts/notes/notes-signalsandsystems.webp
 top_img: /img/posts/notes/notes-signalsandsystems.webp
@@ -63,13 +63,13 @@ $$
 
 ### 1.3.1 普通连续信号
 
-- **指数信号** $f(t)=K\mathrm e^{\alpha t}$，其中指数因子 $\alpha$，时间常数 $\tau=\cfrac{1}{|\alpha|}$
+- **指数信号** $f(t)=K\mathrm e^{\alpha t}$，其中指数因子 $\alpha$，时间常数 $\tau=\dfrac{1}{|\alpha|}$
 
 - **正弦信号** $f(t)=A\cos(\omega t-\theta)$
 
 - **复指数信号** $f(t)=K\mathrm e^{(\alpha+\mathrm i\omega) t}$
 
-- **抽样信号** $f(t)=\operatorname{Sa}t=\cfrac{\sin t}{t}$，这是个偶函数，一个重要性质是狄利克雷积分 $\displaystyle \int_{-\infty}^{+\infty}\operatorname{Sa}t\mathrm dt=\pi$
+- **抽样信号** $f(t)=\operatorname{Sa}t=\dfrac{\sin t}{t}$，这是个偶函数，一个重要性质是狄利克雷积分 $\displaystyle \int_{-\infty}^{+\infty}\operatorname{Sa}t\mathrm dt=\pi$
 
 ### 1.3.2 奇异信号
 
@@ -148,7 +148,7 @@ $$
 
 - **单边指数序列** $f(k)=a^{k}\varepsilon(k)$
 
-- **正弦序列** $f(k)=\sin\omega_{0}k$，如果周期 $T=\cfrac{2\pi}{\omega_{0}}$ 是有理数，设 $T=\cfrac{q}{p}$，其中 $p\perp q$，则最小正周期为 $T_{0}=q$，否则如果周期是无理数，正弦序列没有周期
+- **正弦序列** $f(k)=\sin\omega_{0}k$，如果周期 $T=\dfrac{2\pi}{\omega_{0}}$ 是有理数，设 $T=\dfrac{q}{p}$，其中 $p\perp q$，则最小正周期为 $T_{0}=q$，否则如果周期是无理数，正弦序列没有周期
 
 - **复指数序列** $f(k)=K\mathrm e^{(\alpha+\mathrm i\omega) k}=Ka^{k}\mathrm e^{\mathrm i\omega k}$
 

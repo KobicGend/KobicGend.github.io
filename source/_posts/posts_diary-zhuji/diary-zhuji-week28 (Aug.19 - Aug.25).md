@@ -5,14 +5,12 @@ tags:
   - 小明
   - 主机
 categories:
-  - - 日記
-    - 主机註記
+  - posts_diary-zhuji
 date: '2024-08-20 06:30:00'
 updated: '2024-08-20 06:30:00'
 cover: /img/zhuji-cover.webp
 top_img: /img/zhuji.webp
 abbrlink: 1ae8f8d3
-
 password: Shusei
 abstract: This blog is encrypted. 本文已加密。
 message: Please enter the password. 請輸入訪問密碼。

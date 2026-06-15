@@ -5,8 +5,8 @@ tags:
   - 數學
   - 線性代數
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_線性代數_linearalgebra
 description: 线性代数复习笔记（精简版）。
 cover: /img/posts/notes-linearalgebra-lite.webp
 top_img: /posts/4075f5da.htm/111.png

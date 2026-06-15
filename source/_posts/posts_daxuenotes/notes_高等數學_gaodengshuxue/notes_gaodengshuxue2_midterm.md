@@ -5,8 +5,8 @@ tags:
   - 數學
   - 高等數學
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_高等數學_gaodengshuxue
 description: 高等数学：微分方程、多元函数。
 cover: /img/posts/notes/notes-gaodengshuxue.webp
 top_img: /img/posts/notes/notes-gaodengshuxue.webp

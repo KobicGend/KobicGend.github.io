@@ -4,8 +4,8 @@ tags:
   - 筆記
   - 工科
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_電子電路基礎_Electronic&CircuitFoundation
 description: 电子电路基础笔记。
 cover: /img/posts/notes/notes-electronicandcircuitfoundation.webp
 top_img: /img/posts/notes/notes-electronicandcircuitfoundation.webp

@@ -1,22 +1,58 @@
+- “Living in an increasingly competitive world, college students should better prepare themselves to confront various challenges.”
+- “It is believed that teachers can exert a profound influence on their students’ academic pursuit and personal development.”
+- “While striving for the Chinese Dream, young people enjoy more opportunities to realize their self-worth.”
+- “With the increasing application of AI technology, there is a growing concern that it may negatively impact human creativity.”
+- “As social media is used more and more extensively, there is a growing awareness of the importance of using it properly and responsibly.”
+- “As requirements for job applications are getting increasingly higher, college students ought to be better prepared for their future career.”
+
+| **题目序号 & 核心大意**                      | **出题人态度分类**                     | **考场瞬间条件反射（潜台词）**             |
+| ------------------------------------ | ------------------------------- | ----------------------------- |
+| **题2：** 老师对学生学术和人生产生深远影响。            | **👍 好事（正面）**                   | “老师太重要了，我们要感恩、要重视师生关系！”       |
+| **题3：** 在实现中国梦的过程中，年轻人有更多机会实现自我价值。   | **👍 好事（正面）**                   | “时代太好了，机会太多了，年轻人赶紧冲！”         |
+| **题4：** AI技术应用增加，人们担心它会负面影响人类创造力。    | **👎 坏事 / 隐患（负面）**              | “AI确实牛，但这个危害很严重，得想办法解决！”      |
+| **题5：** 社交媒体用得越来越多，大家意识到要合理、负责任地使用。  | **⚖️ 中性变化 / 趋势**                | “工具是双刃剑，关键在于我们如何‘合理负责’地用它。”   |
+| **题1：** 生活在日益竞争的世界，大学生应该更好地准备迎接各种挑战。 | **⚖️ 中性变化 $\rightarrow$ 需积极应对** | “竞争是客观现实（中性），但大学生‘应该准备’（行动）。” |
+| **题6：** 求职要求越来越高，大学生应该为未来的职业生涯做好准备。  | **⚖️ 中性变化 $\rightarrow$ 需积极应对** | “求职变难是现实（中性），关键是‘如何准备’（行动）。”  |
+
+
+段落	核心功能	建议字数占比	实际字数	建议句数
+
+第三段 (Conclusion)	总结发言 + 提出建议/展望	约 20%	35-45 词	2 句
+
 ## 一、开头段 (Introduction)
 
-### 1. 引出话题/背景描述
+第一段 (Introduction)	引出背景 + 表明观点	约 25%	40-45 词	2-3 句（含原句）
 
-From my perspective, in an era characterized by [unprecedented technological advancements / increasing globalization / shifting societal values and a growing emphasis on individuality], 
-the far-reaching impact of [topic] cannot be overstated, and this exposition endeavors to dissect the underlying causations of this trend and scrutinize its multifaceted implications. 
-
-在我看来，在一个以[前所未有的技术进步/日益增长的全球化/社会价值观转变和日益强调个性化为特征]为特征的时代，
-[主题]的深远意义/深远影响不容低估，本文力图剖析这一趋势的深层原因，并审视其多方面的影响。
-
-(若为图画作文) "The provided image/cartoon offers a poignant illustration of [brief description], a phenomenon that resonates deeply within contemporary society." (所提供的图片/漫画生动地展示了[简要描述]，这一现象在当代社会引起了深刻共鸣。)
-
+【积极弘扬类】
+From my perspective, 
+- such a **helpful trend / positive influence** plays a **positive role** in our growth, as it
+- not only 
+- [benefits our young people in many ways], 
+- but also 
+- drives us to chase our goals with confidence.
+【挑战应对类】
+- such a [growing pressure / demanding trend]
+- not only 
+- [requires us to work hard],
+- but more importantly,
+- drives us to chase our goals with confidence.
+【双刃剑】
+- such a [popular technology / digital trend / new challenge / growing pressure]
+- not only 
+- [brings great convenience to our young people],
+- but also 
+- [requires us to pay close attention to its far-reaching negative impacts].
 
 
 ## 二、正文段 (Body Paragraphs)
 
-### 1. 提出分论点 (Topic Sentence)
+第二段 (Body)	核心论证（原因/影响/对策）	约 55%	90-110 词	4-5 句
 
-"Of paramount importance is the fact that [reason/aspect 1]." (首要的是，/至关重要的是[原因/方面1]。)
+
+【提出分论点】Of paramount importance is the fact that ….
+
+
+
 "What warrants equal attention is [reason/aspect 2]." (此外，/同样值得关注的是[原因/方面2]。)
 "Another compelling dimension to consider revolves around [reason/aspect 3]." (另一个值得考虑的有力方面围绕着[原因/方面3]。)
 "On one facet of the argument, [argument 1]. Conversely, an opposing yet equally valid facet suggests [argument 2]." (从论点的一方面来看，[论点1]。相反，另一方面同样成立的观点表明[论点2]。)
@@ -57,16 +93,5 @@ Drawing upon the aforementioned analysis, it is reasonable to deduce that [resta
 "Only through such concerted endeavors can a more auspicious outcome be materialized." (只有通过这样共同的努力，才能实现更有利的结果。)
 "It is through collective resolve and strategic action that society can effectively harness the potential of [topic] / mitigate the challenges posed by [topic]." (正是通过集体决心和战略行动，社会才能有效地利用[主题]的潜力/减轻[主题]带来的挑战。)
 
----
 
-以下是之前关于“学习新技能”的范文，其中应用了_原模板思路_（或者说任何一个标准议论文模板都会包含的结构性语句）的部分已用粗体标出，以展示模板是如何嵌入实际写作中的。
-
-Learning New Skills to Adapt to a Fast-Changing World
-
-Nowadays, the world is undergoing unprecedented transformations, characterized by rapid technological advancements and evolving societal demands. In this dynamic era, it is undeniable that continuously learning new skills has become not just an option but a necessity for individuals to navigate and thrive. This essay will explore the paramount importance of acquiring new competencies in adapting to our fast-changing world.
-
-First and foremost, mastering new skills is crucial for career development and sustainability. The job market is in a constant state of flux, with new industries emerging and old ones becoming obsolete. For instance, the rise of artificial intelligence and big data has created a demand for professionals proficient in these areas, while traditional manufacturing roles may be diminishing. Therefore, individuals who proactively engage in upskilling or reskilling can significantly enhance their employability, seize new opportunities, and remain competitive in their respective fields. This continuous learning mindset ensures that one's knowledge base stays relevant and valuable.
-
-Moreover, acquiring new skills fosters personal growth and enhances overall adaptability. Beyond professional advantages, learning broadens one's horizons, boosts confidence, and improves problem-solving abilities. For example, learning a new language can open doors to different cultures and perspectives, while picking up a digital skill like coding can cultivate logical thinking. These acquired competencies equip individuals with the mental agility and resilience needed to embrace change rather than fear it, allowing them to adjust more smoothly to unforeseen challenges and transitions in various aspects of life.
-
-In conclusion, the relentless pace of change in the modern world underscores the indispensable role of continuous skill acquisition. From securing career prospects to fostering personal development and adaptability, the benefits are multifaceted and profound. Therefore, it is imperative that individuals cultivate a lifelong learning habit, actively seeking out new knowledge and abilities. By doing so, we can not only adapt to the exigencies of a fast-changing world but also contribute meaningfully to its ongoing evolution.
+In conclusion, while the external environment is constantly shifting, the ultimate key lies in our own adaptability. Only by taking proactive actions can we successfully turn potential challenges into stepping stones for success.

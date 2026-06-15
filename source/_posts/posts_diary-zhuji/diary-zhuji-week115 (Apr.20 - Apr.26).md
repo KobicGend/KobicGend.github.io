@@ -4,11 +4,15 @@ tags:
   - 小明
   - 主机
 categories:
-  - - 日記
-    - 主机註記
+  - posts_diary-zhuji
 cover: /img/zhuji-cover.webp
 top_img: /img/zhuji.webp
 abbrlink: af625867
+password: Shusei
+abstract: This blog is encrypted. 本文已加密。
+message: Please enter the password. 請輸入訪問密碼。
+wrong_pass_message: 'Incorrect password, please try again. 密码不正確，請重試。'
+wrong_hash_message: Bug found!
 date: 2026-04-21 06:30:00
 updated: 2026-04-21 06:30:00
 ---
@@ -34,11 +38,29 @@ updated: 2026-04-21 06:30:00
 
 ## 火 (Apr.21)
 
+打算给我的日记加上双向链接。
+
+最近发现，有些想法和观点在此前已有所阐述，因此有必要做一些澄清解释、补充修正或整合重构。
+
 ## 水 (Apr.22)
 
 ### 百伍
 
 刚刚吃寿司郎一个人吃了一百伍拾块钱。
+
+### 
+
+今天看到我特别喜欢的博主说，她大一的时候老师要找人做海报，「我不会做海报啊，但是我喜欢有偿啊」，于是用平板叽里咕噜搞了一通，大受赞赏。
+
+意外发现她是学逻辑学的，很符合我的刻板印象。
+
+### 
+
+「当命运偶然眷顾我的时候，我非常惶恐，害怕唾手可得的一切会悄然消散。」
+
+决定把奶酪朋友圈的句子搬进我的日记本。深受启发！
+
+在 Apr.18 给【】写的 UPD 是对的，而且更具体地说，是「命运偶然眷顾我的时候」。太久没有体会到这种感觉了。那种急切感
 
 ## 木 (Apr.23)
 
@@ -69,3 +91,9 @@ updated: 2026-04-21 06:30:00
 ## 土 (Apr.25)
 
 ## 日 (Apr.26)
+
+### 整理
+
+好想你。
+
+正在整理以前的照片……想哭，好想一直坐在你旁边。

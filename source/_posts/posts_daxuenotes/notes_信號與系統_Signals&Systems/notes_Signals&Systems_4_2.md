@@ -5,8 +5,8 @@ tags:
   - 數學
   - 信號與系統
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_信號與系統_Signals&Systems
 description: 信號與系統 第四章 連續時間信號與系統的頻域分析（下）
 cover: /img/posts/notes/notes-signalsandsystems.webp
 top_img: /img/posts/notes/notes-signalsandsystems.webp
@@ -32,7 +32,7 @@ f_{T}(t)=
 F_{n}\mathrm e^{\mathrm in\Omega t},
 $$
 
-式中 $\Omega=\cfrac{2\pi}{T}$ 表示周期信号 $f_{T}(t)$ 的角频率．再做傅里叶变换，得到
+式中 $\Omega=\dfrac{2\pi}{T}$ 表示周期信号 $f_{T}(t)$ 的角频率．再做傅里叶变换，得到
 
 $$
 \begin{aligned}

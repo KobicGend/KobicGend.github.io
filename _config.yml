@@ -110,34 +110,31 @@ deploy:
   type: git
   repository: https://github.com/KobicGend/KobicGend.github.io.git
   branch: master
+   
 
+
+  # Markdown-it 渲染器配置
 markdown:
+  preset: 'default'
   render:
     html: true
+    xhtmlOut: false
+    breaks: true
   plugins:
-    - markdown-it-footnote
+    - '@iktakahiro/markdown-it-katex'
+
 # markdown:
 #   render:
 #     html: true
-#     xhtmlOut: false
-#     breaks: true
-#     linkify: true
-#     typographer: true
 #   plugins:
-#     - plugin:
-#       name: '@iktakahiro/markdown-it-katex'
-#       enable: false
-#     # - plugin:
-#     #   name: '@andatoshiki/markdown-it-katex'
-#     #   enable: true
-#     - plugin:
-#       name: '@neilsustc/markdown-it-katex'
-#       enable: true
-#       options:
-#         strict: false
-#   anchors:
-#     level: 1
-#     collisionSuffix: ''
+#     - markdown-it-footnote
+#     - markdown-it-katex
 
 auto_spacing:
   enable: true
+
+
+# 自动分类插件配置
+auto_category:
+  enable: true  # 开启插件
+  depth: 0      # 0 表示不限制读取的文件夹深度，有多少层文件夹就生成多少层级

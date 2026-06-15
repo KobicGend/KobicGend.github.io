@@ -4,7 +4,8 @@ tags:
   - 小明
   - Music
 categories:
-  - Music
+  - arts
+  - music
 cover: /img/posts/music/lagtrain.webp
 top_img: false
 copyright: false

@@ -3,8 +3,7 @@ title: 〔Python〕將圖像轉換爲ASCII字符畫
 tags:
   - Python
 categories:
-  - - 雜
-    - 學習
+  - other
 abbrlink: 595bd7af
 date: 2024-04-02 16:51:57
 updated: 2024-04-02 16:51:57

@@ -12,8 +12,10 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "@iktakahiro/markdown-it-katex": "^4.0.1",
     "hexo": "^7.3.0",
     "hexo-abbrlink": "^2.2.1",
+    "hexo-auto-category": "^0.2.2",
     "hexo-blog-encrypt": "^3.1.9",
     "hexo-butterfly-tag-plugins-plus": "^1.0.18",
     "hexo-deployer-git": "^4.0.0",

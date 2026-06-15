@@ -3,12 +3,22 @@
 ### 内心独白
 
 修改表述，要求：
-- 內心獨白，類似於站在客觀的角度做自我審視。
+- 既可以是內心獨白，站在客觀的角度做自我審視，也可以是與「你」的交流。
 - 原文邏輯可能有些混亂，允許重組，有因果鏈條與情感重量，體現內心思考。
 - 直陳其事，不尚雕飾，但不要扯專業術語，不要太文學，沒有特別掉書袋的詞，直白一些。
 - 尊重原文，不要下結論，不要加太多你自己的猜測。
 - 如果你有不確定的邏輯關係，請告知，而非隨意處置。
 
+### 论文翻译
+
+用自然的中国话翻译，不要逐词逐句，但是要保留全部意思，不能有遗漏。有条理地翻译，不要直接用一个大段落，可以拆分成若干组大小标题，但注意不要遗漏任何内容。此外，引用的中括号要保留。之后我会给你片段。
+
+### 论文
+
+1.把需要写作word里的内容写在代码框里，以作区分。
+2.4篇参考文献，以后你的表述如果出现这些内容，需要用[1]、[2]等标注在代码框里。
+3.合理分段。不要只写一大段。
+4.不要出现无意义的抽象词汇，比如“深刻洞察”，不要出现英语翻译腔的长难句，语言自然，像学术论文。
 
 ### 社会
 
@@ -48,6 +58,22 @@
 
 请作为一名具有 20 年资历、性格乖戾且极其挑剔的顶级期刊审稿人。你的任务是对接下来的文本进行‘毁灭性’评审，并分别给出实际可行的修改建议。请忽略任何情感因素，用尖酸刻薄、充满讽刺且学术化的语言，无情地指出其逻辑漏洞、创新性不足的平庸。不要提供廉价的鼓励，你的目标是让作者怀疑自己的职业生涯。你不喜欢说空话，你想动用你的专业知识，在每条批评后给出实际可行的修改建议。
 
+### 深度润色技术文档
+
+**任务目标**： 请对我提供的初稿进行深度润色，使其达到**发布级**的技术文档水平。
+
+**润色准则（必须严格执行）**：
+
+1. **客观化处理**：移除所有主观性描述（如“我认为”、“显然地”、“非常棒”）。将感性词汇替换为定量描述或客观事实。
+2. **提升信息密度**：删除冗余的修饰语（如“为了能够...”、“关于...的一个方面”）。使用动词驱动的句式，确保每一句话都有实际的技术含量。
+3. **语法与语态**：
+	- 优先使用**中性叙述**。
+	- 确保**主谓一致**，逻辑链条完整（因果、转折、递进关系必须明确）。
+4. **术语一致性**：检查并统一全文术语。如果出现缩写，请在首次出现时注明全称。
+5. **结构化优化**：如果原句逻辑混乱，请重新组织句型，使其符合“现象—数据—结论—建议”的工程逻辑。
+6. **排版规范**：把内容用markdown直接写在代码框里
+7. 需要数学公式来增强严谨性。不要只说“最小化”，应该给出的计算定义，并写出目标函数。
+
 
 ### 总结
 
@@ -55,7 +81,10 @@ I have summarized some conclusions. Please help me eliminate the unnecessary det
 
 ### 日语翻译
 
-用中英文给日语初学者拆解日语句子，并讲解单词（包括变形、解释）和语法、助词等知识点。如果假名有对应汉字请写出。如果有为了歌词做的特殊改动，请恢复原句并说明。
+用中英文给 N5 水平日语初学者拆解日语句子的结构，并讲解单词（包括变形、解释、读音）和语法、助词等知识点，标出读音的高低。如果假名有对应汉字请写出。把单词与句子的英文也写出来。
+如果有为了歌词做的特殊改动，请提前恢复原句并说明。
+
+
 ### 严谨不要比喻
 
 严谨不要比喻，你的回答要让不是这个领域的人看懂，所有出现的专业名词以及符号都要先解释再提出，也不要一下子全部列出，像写教科书那样，用到什么解释什么。
@@ -83,9 +112,34 @@ I have summarized some conclusions. Please help me eliminate the unnecessary det
 2.请优先指出现有研究的失效点，而非重复其共识。
 3.我更关心为什么这个问题现在才浮现，而不是历史回顾。
 
-### 杂
+### 不要直接给完整代码，告诉我每一部分改的原因和怎么改
 
-Before answering the question, first translate the question into English and respond in English, and output your answer. Then translate your response back into Chinese.
+这个代码太臃肿了。把出现多次的代码，用函数代码复用。只出现一次的，不要写函数。彻底重构，如果有问题可以顺便修改，并告诉我。
+
+同时指出问题和修改建议和具体修改方法（按代码段给出具体修改方法，一步步讲解怎么修改，不要给出过长的完整代码）
+
+整个代码执行逻辑是什么，按照代码真正运行的时间线，结合代码块进行的逻辑拆解并添加注释。
+
+## Puzzle
+
+### 简单写一下本题做法
+
+简单写一下本题做法，用规范的latex公式而不是行间代码。不要转义代码，要从解题层面写做法。不要比喻
+
+
+### 形式化题意
+
+给一个形式化题意，去掉情境，描述尽量简洁，文字易描述就用文字，符号易描述就用符号，简洁为主。然后把输入量变成大写，其余变量不要变。
+
+## 杂
+
+Include further reading suggestions at the end to help users trace information back to primary sources, original authors, and foundational documents.
+
+Standardize the question before answering. When standardizing the question, keep the original meaning without adding new conditions. If the question is unclear or has logic problems, point those out instead of answering a different version of the question.
+
+Unless otherwise specified, do not use metaphors.
+
+## 总 prompt
 
 cgboost 和  ianhubert  
 
@@ -111,4 +165,26 @@ cgboost 和  ianhubert
 阐释性范式 (Interpretive Paradigm)：深入理解特定情境下个体的生活体验
 
 
-接受线上科研访谈，在之後我可以詢問他們的研究內容以及論文嗎？
+新闻女王
+
+[https://www.luogu.com.cn/problem/P15257](https://www.luogu.com.cn/problem/P15257)
+
+V6LPeqLPaDLw:PA
+
+138+保险100 邮费140+30 服务100 过路费70 中午269 晚上128 高铁54.5*2=109 以上人均266.66
+
+桌游37
+
+汤泉150+29
+
+从职责、结果、收获，写ACM经历，目标是让不了解竞赛的人知道含金量，分别作为简历和面试稿，先问我具体问题以保证真情饱满（不要问太蠢的问题
+
+P3295，P9361，P3517， noi2024d1t3， CF1707E，CF1032G， 1495F（单调栈形成的树），
+
+艺术品如何定价
+
+Mutually Exclusive Collectively Exhaustive
+
+But what is the Central Limit Theorem?pretty reason why Gaussian + Gaussian = Gaussian
+
+[https://5sim.net/zh/order/949880875](https://5sim.net/zh/order/949880875)

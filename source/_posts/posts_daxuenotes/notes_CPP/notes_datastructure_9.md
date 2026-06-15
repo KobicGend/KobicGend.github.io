@@ -5,8 +5,8 @@ tags:
   - cpp
   - 數據結構
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_CPP
 description: 數據結構第九講：圖的基本概念
 cover: /img/posts/notes/notes-datastructure.webp
 top_img: /img/posts/notes/notes-datastructure.webp
@@ -31,7 +31,7 @@ updated: 2024-11-14 12:00:00
 
 多数概念都很好理解，这里只写几个容易错的：
 
-对于无向图，每个顶点的度定义为以该顶点为一个端点的边数。对于有向图，度分为入度和出度，入度是以该顶点为终点的入边数目；出度是以该顶点为起点的出边数目，该顶点的度等于其入度和出度之和。握手定理：$e=\cfrac{1}{2}\sum d_{u}$。
+对于无向图，每个顶点的度定义为以该顶点为一个端点的边数。对于有向图，度分为入度和出度，入度是以该顶点为终点的入边数目；出度是以该顶点为起点的出边数目，该顶点的度等于其入度和出度之和。握手定理：$e=\dfrac{1}{2}\sum d_{u}$。
 
 边数 $e\ll n\log_{2}n$ 的图是稀疏图，否则是稠密图。
 

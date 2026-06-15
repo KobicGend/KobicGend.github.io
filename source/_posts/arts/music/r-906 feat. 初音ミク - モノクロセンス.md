@@ -4,14 +4,15 @@ tags:
   - 小明
   - Music
 categories:
-  - Music
+  - arts
+  - music
 cover: /img/posts/music/monochrome_sense.webp
 top_img: false
 copyright: false
 abbrlink: 8a647f3c
+description: 「今回の曲は同時に思いついたので、双子ちゃんです。こっちが姉です。」——r-906
 date: 2026-01-08 00:00:00
 updated: 2026-01-08 00:00:00
-description: '「今回の曲は同時に思いついたので、双子ちゃんです。こっちが姉です。」——r-906'
 ---
 
 <style>

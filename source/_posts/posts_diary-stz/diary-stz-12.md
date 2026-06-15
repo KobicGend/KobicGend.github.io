@@ -5,8 +5,7 @@ tags:
   - 日記
   - 中外历史纲要
 categories:
-  - - 日記
-    - 高中回憶
+  - posts_diary-stz
 abbrlink: 8310af92
 series: 中外历史纲要
 cover: /img/stz.webp

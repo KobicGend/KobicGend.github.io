@@ -7,8 +7,7 @@ tags:
   - Plog
   - CUC
 categories:
-  - - 日記
-    - 日常
+  - posts_diary
 cover: /img/posts/diary/230907/1.webp
 top_img: false
 abbrlink: 62cc1cb9

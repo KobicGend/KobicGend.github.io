@@ -1,11 +1,11 @@
 ---
-title: DAEnglish B - Notes V1.2.0 [EN]
+title: 'DAEnglish B - Notes V1.2.0 [EN]'
 tags:
   - 筆記
   - English
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_大學英語_DAEnglish
 description: A notebook applicable to class B of college English.
 cover: /img/posts/notes-DAEnglishB.webp
 top_img: /posts/1a0287c3.htm/111.png

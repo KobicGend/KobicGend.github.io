@@ -610,7 +610,7 @@ $$
 
 \left\{
 \begin{array}{ll}
-\cfrac{ x^{k+1}}{k+1}+C, & \text{if }k\ne-1 \\
+\dfrac{ x^{k+1}}{k+1}+C, & \text{if }k\ne-1 \\
 \ln\left|x\right|+C, & \text{if }k=-1
 \end{array}\right.
 
@@ -641,14 +641,14 @@ $$
 
 \hline
 
-\cfrac{1}{4}(2x+\sin{2x})+C & \cos^2x & -\sin{2x} \\
-\cfrac{1}{4}(2x-\sin{2x})+C & \sin^2x & \sin{2x} \\
+\dfrac{1}{4}(2x+\sin{2x})+C & \cos^2x & -\sin{2x} \\
+\dfrac{1}{4}(2x-\sin{2x})+C & \sin^2x & \sin{2x} \\
 
 \hline
 
-x\arcsin x+\sqrt{1-x^2}+C & \arcsin x & \cfrac{1}{\sqrt{1-x^2}} \\ 
-x\arccos x-\sqrt{1-x^2}+C & \arccos x & \cfrac{-1}{\sqrt{1-x^2}} \\ 
-x\arctan x-\cfrac{1}{2}\ln{|x^2+1|}+C & \arctan x & \cfrac{1}{1+x^2} \\ 
+x\arcsin x+\sqrt{1-x^2}+C & \arcsin x & \dfrac{1}{\sqrt{1-x^2}} \\ 
+x\arccos x-\sqrt{1-x^2}+C & \arccos x & \dfrac{-1}{\sqrt{1-x^2}} \\ 
+x\arctan x-\dfrac{1}{2}\ln{|x^2+1|}+C & \arctan x & \dfrac{1}{1+x^2} \\ 
 
 \hline
 \end{array}
@@ -676,8 +676,8 @@ $$
 &\displaystyle=\int_{0}^{\frac{\pi}{2}}{\cos^nx\mathrm{d}x}
 &\displaystyle=\left\{
 \begin{array}{ll}
-\cfrac{(n-1)!!}{n!!} & n\text{ is odd.}\\
-\cfrac{(n-1)!!}{n!!} \cdot \cfrac{\pi}{2} & n\text{ is even.}
+\dfrac{(n-1)!!}{n!!} & n\text{ is odd.}\\
+\dfrac{(n-1)!!}{n!!} \cdot \dfrac{\pi}{2} & n\text{ is even.}
 \end{array}\right.\\
 
 \text{I}
@@ -685,15 +685,15 @@ $$
 &\displaystyle=2\int_{0}^{\frac{\pi}{2}}{\sin^nx\mathrm{d}x}
 &\displaystyle=\left\{
 \begin{array}{ll}
-2\cdot\cfrac{(n-1)!!}{n!!} & n\text{ is odd.}\\
-2\cdot\cfrac{(n-1)!!}{n!!} \cdot \cfrac{\pi}{2} & n\text{ is even.}
+2\cdot\dfrac{(n-1)!!}{n!!} & n\text{ is odd.}\\
+2\cdot\dfrac{(n-1)!!}{n!!} \cdot \dfrac{\pi}{2} & n\text{ is even.}
 \end{array}\right. \\
 
 \text{II}
 &\displaystyle\int_{0}^{\pi}{\cos^nx\mathrm{d}x}
 &&\displaystyle=\left\{
 \begin{array}{ll}0 & n\text{ is odd.}\\
-2\cdot\cfrac{(n-1)!!}{n!!} \cdot \cfrac{\pi}{2} & n\text{ is even.}
+2\cdot\dfrac{(n-1)!!}{n!!} \cdot \dfrac{\pi}{2} & n\text{ is even.}
 \end{array}\right. \\
 
 \text{III}
@@ -701,7 +701,7 @@ $$
 &\displaystyle=\int_{0}^{2\pi}{\cos^nx\mathrm{d}x}
 &=\displaystyle\left\{
 \begin{array}{ll}0 & n\text{ is odd.}\\
-4\cdot\cfrac{(n-1)!!}{n!!} \cdot \cfrac{\pi}{2} & n\text{ is even.} 
+4\cdot\dfrac{(n-1)!!}{n!!} \cdot \dfrac{\pi}{2} & n\text{ is even.} 
 \end{array}\right.
 
 \end{array}
@@ -730,18 +730,18 @@ e^x & e^x \\
 
 x^{\mu} & \mu \left( \mu -1 \right) \cdots \left( \mu -n+1 \right) x^{\mu -n} \\
 x^{n} & n! \\
-x^{-1} & (-1)^n\cfrac{n!}{x^{n+1}}\\
-\cfrac{1}{x+a} 
-& \displaystyle\cfrac{(-1)^nn!}{(x+a)^{n+1}} \\
-\bold{\cfrac{1}{kx+b}}
-& \bold{\displaystyle{\cfrac{(-1)^{n}k^{n}n!}{(kx+b)^{n+1}}}} \\
+x^{-1} & (-1)^n\dfrac{n!}{x^{n+1}}\\
+\dfrac{1}{x+a} 
+& \displaystyle\dfrac{(-1)^nn!}{(x+a)^{n+1}} \\
+\bold{\dfrac{1}{kx+b}}
+& \bold{\displaystyle{\dfrac{(-1)^{n}k^{n}n!}{(kx+b)^{n+1}}}} \\
 
 \hline
 
 \log _ax
 & \displaystyle\frac{\left( -1 \right) ^{n-1}\left( n-1 \right) !}{x^n\ln a} \\
 \ln(kx+b)
-& \displaystyle\cfrac{(-1)^{n-1}k^n(n-1)!}{(kx+b)^{n}} \\
+& \displaystyle\dfrac{(-1)^{n-1}k^n(n-1)!}{(kx+b)^{n}} \\
 
 \hline
 

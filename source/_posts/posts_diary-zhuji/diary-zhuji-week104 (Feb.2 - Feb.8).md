@@ -4,18 +4,17 @@ tags:
   - 小明
   - 主机
 categories:
-  - - 日記
-    - 主机註記
+  - posts_diary-zhuji
 cover: /img/zhuji-cover.webp
 top_img: /img/zhuji.webp
 abbrlink: 9c43eea3
-date: 2026-02-03 06:30:00
-updated: 2026-02-03 06:30:00
 password: Shusei
 abstract: This blog is encrypted. 本文已加密。
 message: Please enter the password. 請輸入訪問密碼。
 wrong_pass_message: 'Incorrect password, please try again. 密码不正確，請重試。'
 wrong_hash_message: Bug found!
+date: 2026-02-03 06:30:00
+updated: 2026-02-03 06:30:00
 ---
 
 # 第 104 周主机註記
@@ -232,7 +231,7 @@ mcl那边出去读的基本都是mcl的合作导师
 
 ## 金 (Feb.6)
   
-有考虑过这种可能，但是没想到真的是这样。 当时的说法是，要么让我死心，要么指条明路，不能再拖着了。
+有考虑过这种可能，但是没想到真的是这样。当时的说法是，要么让我死心，要么指条明路，不能再拖着了。
 
 不，我不可能死心，总会有方法的。
 
@@ -272,8 +271,3 @@ UPD：但反过来说，如果希望在某个领域发挥点作用，首先自�
 我不太认可啊，我开心有什么用？……
 
 你知道我的宗旨是什么吗？
-
-
-
-
-

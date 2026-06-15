@@ -7,8 +7,8 @@ tags:
   - CUC
   - 微信公眾號
 categories:
-  - - 作品
-    - 微信公眾號
+  - arts
+  - arts_cucradio
 top-img: /img/posts/arts_cucradio/arts_cucradio20240911_head.webp
 cover: /img/posts/arts_cucradio/arts_cucradio20240911_head.webp
 copyright: false

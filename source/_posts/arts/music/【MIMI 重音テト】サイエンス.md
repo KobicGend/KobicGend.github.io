@@ -4,7 +4,8 @@ tags:
   - 小明
   - Music
 categories:
-  - Music
+  - arts
+  - music
 cover: /img/posts/music/サイエンス.webp
 top_img: /img/posts/music/サイエンス.webp
 copyright: false

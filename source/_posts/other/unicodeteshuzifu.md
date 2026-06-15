@@ -4,7 +4,7 @@ hidden: true
 tags:
   - Unicode
 categories:
-  - 雜
+  - other
 abbrlink: 7c68afb2
 date: 2024-03-27 01:33:05
 updated: 2024-03-27 01:33:05

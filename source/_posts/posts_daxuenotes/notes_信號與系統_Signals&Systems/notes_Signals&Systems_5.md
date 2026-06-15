@@ -5,8 +5,8 @@ tags:
   - 數學
   - 信號與系統
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_信號與系統_Signals&Systems
 description: 信號與系統 第五章 連續時間信號與系統的複頻域分析
 cover: /img/posts/notes/notes-signalsandsystems.webp
 top_img: /img/posts/notes/notes-signalsandsystems.webp
@@ -128,7 +128,7 @@ $$
 \mathscr{L}[f(t)]
 & F(s) & \mathrm{Re}[s] > \\\hline
 \mathscr{L}[\varepsilon(t)]
-& \cfrac{1}{s}
+& \dfrac{1}{s}
 & -\infty \\
 \mathscr{L}[\delta(t)]
 & 1
@@ -136,17 +136,17 @@ $$
 \mathscr{L}[\delta'(t)]
 & s
 & 0 \\
-\mathscr{L}\big[g_{\tau}\big(t-\cfrac{\tau}{2}\big)\big]
-& \cfrac{1-\mathrm e^{-s\tau}}{s}
+\mathscr{L}\big[g_{\tau}\big(t-\dfrac{\tau}{2}\big)\big]
+& \dfrac{1-\mathrm e^{-s\tau}}{s}
 & -\infty \\
 \mathscr{L}[\mathrm e^{-s_{0}t}\varepsilon(t)]
-& \cfrac{1}{s-s_{0}}
+& \dfrac{1}{s-s_{0}}
 & \mathrm{Re}[s_{0}] \\
 \mathscr{L}[\cos\omega_{0}t\varepsilon(t)]
-& \cfrac{s}{s^{2}+\omega_{0}^{2}}
+& \dfrac{s}{s^{2}+\omega_{0}^{2}}
 & 0 \\
 \mathscr{L}[\sin\omega_{0}t\varepsilon(t)]
-& \cfrac{\omega_{0}}{s^{2}+\omega_{0}^{2}}
+& \dfrac{\omega_{0}}{s^{2}+\omega_{0}^{2}}
 & 0 \\
 
 \end{array}
@@ -463,9 +463,9 @@ k_{ij}
 \bigg|_{s=s_{i}}.
 $$
 
-现在只需求 $f(s)=\cfrac{1}{(s-s_{0})^{n+1}}$ 的拉普拉斯反变换。
+现在只需求 $f(s)=\dfrac{1}{(s-s_{0})^{n+1}}$ 的拉普拉斯反变换。
 
-回忆，$\mathscr{L}[\varepsilon(t)]=\cfrac{1}{s}$，对阶跃函数积分，
+回忆，$\mathscr{L}[\varepsilon(t)]=\dfrac{1}{s}$，对阶跃函数积分，
 
 $$
 \varepsilon^{-1}(t)
@@ -519,7 +519,7 @@ $$
 
 **例 2** 求 $F(s)=\dfrac{s}{s^2+s+1}$ 的原函数。
 
-**解** 方程 $s^2+s+1$ 有一对共轭根 $s_{0,1}=-\cfrac{1}{2}\pm\cfrac{\sqrt{3}}{2}\mathrm i$，设
+**解** 方程 $s^2+s+1$ 有一对共轭根 $s_{0,1}=-\dfrac{1}{2}\pm\dfrac{\sqrt{3}}{2}\mathrm i$，设
 
 $$
 \small
@@ -615,7 +615,7 @@ $$
 
 这样能大大降低运算量。
 
-对于例 2，共轭根 $s=-\cfrac{1}{2}\pm\cfrac{\sqrt{3}}{2}\mathrm i$，设
+对于例 2，共轭根 $s=-\dfrac{1}{2}\pm\dfrac{\sqrt{3}}{2}\mathrm i$，设
 
 $$
 F(s)
@@ -623,7 +623,7 @@ F(s)
 -\frac{B\frac{\sqrt{3}}{2}}{(s+\frac{1}{2})^2+(\frac{\sqrt{3}}{2})^2}
 $$
 
-由 $s=A\big(s+\cfrac{1}{2}\big)-B\cfrac{\sqrt{3}}{2}$ 得 $A=1,\ B=\cfrac{1}{\sqrt{ 3 }}$，作拉普拉斯反变换，得
+由 $s=A\big(s+\dfrac{1}{2}\big)-B\dfrac{\sqrt{3}}{2}$ 得 $A=1,\ B=\dfrac{1}{\sqrt{ 3 }}$，作拉普拉斯反变换，得
 
 $$
 f(t)
@@ -637,7 +637,7 @@ $$
 
 如果 $F(s)$ 不是有理分式，一般也可以将其拆成若干基本信号的象函数之和的形式。这里说一般是因为，类似于不定积分，许多函数的原函数不是初等函数。
 
-**例 3** 求 $F(s)=\cfrac{1-\mathrm e^{-2s}}{s^{2}+\pi^{2}}$ 的原函数。
+**例 3** 求 $F(s)=\dfrac{1-\mathrm e^{-2s}}{s^{2}+\pi^{2}}$ 的原函数。
 
 **解** 分子上的 $\mathrm e^{-t_{0}s}$ 可能是时变产生的，
 
@@ -659,7 +659,7 @@ f(t)
 \end{aligned}
 $$
 
-**例 4** 求 $F(s)=\cfrac{1}{s(1+\mathrm e^{-2s})}$ 的原函数。
+**例 4** 求 $F(s)=\dfrac{1}{s(1+\mathrm e^{-2s})}$ 的原函数。
 
 **解** 回忆
 
@@ -736,9 +736,9 @@ $$
 
 $$
 \begin{cases}
-Y(s) = \cfrac{M(s) + E(s) B(s)}{A(s)} \\
-Y_{\mathrm{zi}}(s) = \cfrac{M(s)}{A(s)} \\
-Y_{\mathrm{zs}}(s) = \cfrac{B(s)}{A(s)} E(s)
+Y(s) = \dfrac{M(s) + E(s) B(s)}{A(s)} \\
+Y_{\mathrm{zi}}(s) = \dfrac{M(s)}{A(s)} \\
+Y_{\mathrm{zs}}(s) = \dfrac{B(s)}{A(s)} E(s)
 \end{cases}
 $$
 
@@ -750,7 +750,7 @@ $$
 
 ### 5.3.2 系统函数
 
-**系统函数** $H(s) = \cfrac{B(s)}{A(s)}$，只与系统的结构、参数有关，而与激励、初始状态均无关，反映系统的固有特性。
+**系统函数** $H(s) = \dfrac{B(s)}{A(s)}$，只与系统的结构、参数有关，而与激励、初始状态均无关，反映系统的固有特性。
 
 一方面，$Y_{\mathrm{zs}}(s)=H(s)E(s)$ 在时域上的描述为 $y_{\mathrm{zs}}(t)=h(t)*e(t)$，因此 $H(s)$ 是时域上单位冲激响应 $h(t)$ 的拉普拉斯变换；
 

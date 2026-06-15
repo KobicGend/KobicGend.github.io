@@ -5,8 +5,8 @@ tags:
   - 數學
   - 高等數學
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_高等數學_gaodengshuxue
 description: 高等数学 1
 cover: /img/posts/notes/notes-electronicandcircuitfoundation.webp
 top_img: /img/posts/notes/notes-electronicandcircuitfoundation.webp

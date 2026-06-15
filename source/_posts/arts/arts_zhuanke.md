@@ -5,8 +5,7 @@ tags:
   - 小明
   - 週日和大雷一起挖石頭
 categories:
-  - - 作品
-    - 篆刻
+  - arts
 type: galleryGroup
 aside: false
 cover: /img/posts/zhuanke/20240310_211246.webp

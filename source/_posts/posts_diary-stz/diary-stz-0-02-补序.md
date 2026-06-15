@@ -4,8 +4,7 @@ description: 补序　如何购买回忆——时代与历史之问
 tags:
   - 中外历史纲要
 categories:
-  - - 日記
-    - 高中回憶
+  - posts_diary-stz
 abbrlink: 84b16934
 series: 中外历史纲要
 cover: /img/stz.webp

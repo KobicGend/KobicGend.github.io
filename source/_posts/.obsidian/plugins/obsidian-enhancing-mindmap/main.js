@@ -19915,7 +19915,7 @@ var genfrac_htmlBuilder = function htmlBuilder(group, options) {
   var numerm = buildGroup(group.numer, newOptions, options);
 
   if (group.continued) {
-    // \cfrac inserts a \strut into the numerator.
+    // \dfrac inserts a \strut into the numerator.
     // Get \strut dimensions from TeXbook page 353.
     var hStrut = 8.5 / options.fontMetrics().ptPerEm;
     var dStrut = 3.5 / options.fontMetrics().ptPerEm;
@@ -20052,7 +20052,7 @@ var genfrac_htmlBuilder = function htmlBuilder(group, options) {
   }
 
   if (group.continued) {
-    rightDelim = buildCommon.makeSpan([]); // zero width for \cfrac
+    rightDelim = buildCommon.makeSpan([]); // zero width for \dfrac
   } else if (group.rightDelim == null) {
     rightDelim = makeNullDelimiter(options, ["mclose"]);
   } else {
@@ -20188,7 +20188,7 @@ defineFunction({
 });
 defineFunction({
   type: "genfrac",
-  names: ["\\cfrac"],
+  names: ["\\dfrac"],
   props: {
     numArgs: 2
   },

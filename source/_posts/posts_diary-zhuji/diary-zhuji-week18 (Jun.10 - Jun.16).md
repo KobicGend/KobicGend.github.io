@@ -5,8 +5,7 @@ tags:
   - 小明
   - 主机
 categories:
-  - - 日記
-    - 主机註記
+  - posts_diary-zhuji
 date: '2024-06-11 06:30:00'
 updated: '2024-06-11 06:30:00'
 cover: /img/zhuji-cover.webp

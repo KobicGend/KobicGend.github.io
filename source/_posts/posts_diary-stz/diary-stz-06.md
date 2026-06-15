@@ -5,14 +5,13 @@ tags:
   - 日記
   - 中外历史纲要
 categories:
-  - - 日記
-    - 高中回憶
+  - posts_diary-stz
 abbrlink: 722a4a5b
-date: 2024-05-05 13:25:00
-updated: 2024-05-05 13:25:00
 series: 中外历史纲要
 cover: /img/stz.webp
 top_img: false
+date: 2024-05-05 13:25:00
+updated: 2024-05-05 13:25:00
 ---
 
 ## 辛丑第六　分班·竞赛

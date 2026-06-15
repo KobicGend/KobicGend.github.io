@@ -15,7 +15,7 @@
   "mathPreviewEnabled": true,
   "mathPreviewPositionIsAbove": true,
   "autofractionEnabled": true,
-  "autofractionSymbol": "\\cfrac",
+  "autofractionSymbol": "\\dfrac",
   "autofractionBreakingChars": "+-=\t",
   "matrixShortcutsEnabled": true,
   "taboutEnabled": true,

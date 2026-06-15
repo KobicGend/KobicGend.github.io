@@ -18344,7 +18344,7 @@ var genfrac_htmlBuilder = function htmlBuilder(group, options) {
   var numerm = buildHTML_buildGroup(group.numer, newOptions, options);
 
   if (group.continued) {
-    // \cfrac inserts a \strut into the numerator.
+    // \dfrac inserts a \strut into the numerator.
     // Get \strut dimensions from TeXbook page 353.
     var hStrut = 8.5 / options.fontMetrics().ptPerEm;
     var dStrut = 3.5 / options.fontMetrics().ptPerEm;
@@ -18479,7 +18479,7 @@ var genfrac_htmlBuilder = function htmlBuilder(group, options) {
   }
 
   if (group.continued) {
-    rightDelim = buildCommon.makeSpan([]); // zero width for \cfrac
+    rightDelim = buildCommon.makeSpan([]); // zero width for \dfrac
   } else if (group.rightDelim == null) {
     rightDelim = makeNullDelimiter(options, ["mclose"]);
   } else {
@@ -18533,7 +18533,7 @@ var genfrac_mathmlBuilder = function mathmlBuilder(group, options) {
 
 defineFunction({
   type: "genfrac",
-  names: ["\\cfrac", "\\dfrac", "\\frac", "\\tfrac", "\\dbinom", "\\binom", "\\tbinom", "\\\\atopfrac", // can’t be entered directly
+  names: ["\\dfrac", "\\dfrac", "\\frac", "\\tfrac", "\\dbinom", "\\binom", "\\tbinom", "\\\\atopfrac", // can’t be entered directly
   "\\\\bracefrac", "\\\\brackfrac"],
   props: {
     numArgs: 2,
@@ -18550,7 +18550,7 @@ defineFunction({
     var size = "auto";
 
     switch (funcName) {
-      case "\\cfrac":
+      case "\\dfrac":
       case "\\dfrac":
       case "\\frac":
       case "\\tfrac":
@@ -18586,7 +18586,7 @@ defineFunction({
     }
 
     switch (funcName) {
-      case "\\cfrac":
+      case "\\dfrac":
       case "\\dfrac":
       case "\\dbinom":
         size = "display";
@@ -18601,7 +18601,7 @@ defineFunction({
     return {
       type: "genfrac",
       mode: parser.mode,
-      continued: funcName === "\\cfrac",
+      continued: funcName === "\\dfrac",
       numer: numer,
       denom: denom,
       hasBarLine: hasBarLine,

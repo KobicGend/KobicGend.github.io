@@ -4,8 +4,8 @@ tags:
   - 筆記
   - 數學
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_概率論與數理統計_ProbabilityTheory&MathematicalStatistics
 description: 概率论与梳理统计。
 cover: /img/posts/notes/notes-probabilitytheoryandmathematicalstatistics.webp
 top_img: /img/posts/notes/notes-probabilitytheoryandmathematicalstatistics.webp

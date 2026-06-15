@@ -5,14 +5,13 @@ tags:
   - 日記
   - 中外历史纲要
 categories:
-  - - 日記
-    - 高中回憶
+  - posts_diary-stz
 abbrlink: 82897ef2
-date: 2024-04-07 13:25:00
-updated: 2024-04-07 13:25:00
 series: 中外历史纲要
 cover: /img/stz.webp
 top_img: false
+date: 2024-04-07 13:25:00
+updated: 2024-04-07 13:25:00
 ---
 
 ## 庚子第二　高壹肆班（一）

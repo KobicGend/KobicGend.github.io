@@ -4,8 +4,7 @@ tags:
   - 小明
   - 主机
 categories:
-  - - 日記
-    - 主机註記
+  - posts_diary-zhuji
 cover: /img/zhuji-cover.webp
 top_img: /img/zhuji.webp
 abbrlink: 38a9db6e

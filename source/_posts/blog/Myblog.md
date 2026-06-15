@@ -4,9 +4,10 @@ tags:
   - 小明
   - Blog
 abbrlink: c6a51061
+categories:
+  - blog
 date: 2024-03-25 16:20:39
 updated: 2024-03-30 16:20:38
-categories:
 description:
 ---
 
@@ -18,12 +19,16 @@ hexo clean && hexo generate && gulp && hexo deploy
 hexo clean && hexo server
 ```
 
-```
+```bash
 git add .
 git commit -m "260426backup"
 git push
 ```
-git push -u backup hexo:main
+
+```bash
+git push -u backup hexo:main # 把本地 `hexo` 分支推送到名为 `backup` 的远程仓库的 `main` 分支上。同时记住这个设置，以后我在这台电脑的 `hexo` 分支上直接输入 `git push` 时，请自动帮我推送到 `backup` 的 `main` 分支。
+```
+
 
 ## 从零开始
 
@@ -204,19 +209,48 @@ npm install --save hexo-pdf
 ```
 
 
+### LaTeX
 
-### LATEX
-
-Hexo 默认的 Markdown 解析器（marked）会将 LaTeX 公式中的下划线 `_` 误认为是斜体，将双反斜杠 `\\` 误认为是普通转义。为了彻底解决冲突，我们需要更换一个更高级的解析器：**markdown-it**。
+Hexo 默认解析器会误将公式中的 `_` 和 `\\` 识别为 Markdown 语法导致错乱。最彻底的解决方法是更换为 `markdown-it` 解析器，并配合现代版的 KaTeX 插件。
 
 ```bash
+# 清理可能冲突的旧插件
 npm uninstall hexo-renderer-marked --save
 npm uninstall hexo-renderer-kramed --save
-npm install hexo-renderer-markdown-it --save
-npm install markdown-it-katex --save
+npm uninstall markdown-it-mathjax3 --save
+npm uninstall hexo-filter-mathjax --save
+npm uninstall markdown-it-katex
+# 安装现代解析器与完美适配版 KaTeX
+npm install hexo-renderer-markdown-it @iktakahiro/markdown-it-katex --save
 ```
 
-记得配置主题文件里的 `math: use: mathjax`。
+配置 `_config.yml`
+
+```
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+  plugins:
+    - '@iktakahiro/markdown-it-katex'
+```
+
+主题配置 `_config.butterfly.yml`
+
+注入国内稳定的现代版 KaTeX CSS
+
+```
+math:
+  enable: true
+  use: katex
+
+inject:
+  head:
+    - <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.8/katex.min.css">
+```
+
 
 ### 字數統計
 

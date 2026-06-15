@@ -4,8 +4,7 @@ tags:
   - 小明
   - 主机
 categories:
-  - - 日記
-    - 主机註記
+  - posts_diary-zhuji
 cover: /img/zhuji-cover.webp
 top_img: /img/zhuji.webp
 abbrlink: 4bf48ebf
@@ -26,8 +25,6 @@ updated: 2026-02-24 06:30:00
 
 ## 火 (Feb.24)
 
-前几天我有个同学突然在群里发了五百块红包
-说是打了一下午麻将赢的
 泰拉瑞亚有啥必装的mod吗
 啥必mod有的
 然后呢

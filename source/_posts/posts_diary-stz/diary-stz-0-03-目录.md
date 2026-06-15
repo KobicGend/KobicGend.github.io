@@ -1,17 +1,16 @@
 ---
 title: 《中外历史纲要》目錄
-description: '《中外历史纲要》目錄'
+description: 《中外历史纲要》目錄
 tags:
   - 中外历史纲要
 categories:
-  - - 日記
-    - 高中回憶
+  - posts_diary-stz
 abbrlink: '547e5912'
-date: 2024-03-28 13:25:00
-updated: 2024-03-28 13:25:00
 series: 中外历史纲要
 cover: /img/stz.webp
 top_img: false
+date: 2024-03-28 13:25:00
+updated: 2024-03-28 13:25:00
 ---
 
 <style>

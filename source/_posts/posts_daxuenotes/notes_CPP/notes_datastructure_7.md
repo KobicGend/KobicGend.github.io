@@ -5,8 +5,8 @@ tags:
   - cpp
   - 數據結構
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_CPP
 description: 數據結構第七講：二叉樹基本概念
 cover: /img/posts/notes/notes-datastructure.webp
 top_img: /img/posts/notes/notes-datastructure.webp
@@ -43,11 +43,11 @@ updated: 2024-10-24 12:00:00
 
 - 完全二叉树至多只有最下边两层节点的度数小于 2。
 
-- 按层序编号后对编号为 $k$ 的节点，若 $2k \leqslant n$，则是分支节点，否则是叶子节点。其父节点编号为 $\lfloor \cfrac{n}{2} \rfloor$，左右子节点编号分别为 $2k,2k+1$。
+- 按层序编号后对编号为 $k$ 的节点，若 $2k \leqslant n$，则是分支节点，否则是叶子节点。其父节点编号为 $\lfloor \dfrac{n}{2} \rfloor$，左右子节点编号分别为 $2k,2k+1$。
 
 - 若 $n$ 为奇数，则每个分支节点都既有左子节点，也有右子节点，也就是没有度为 1 的节点，即 $n_{1}=0$；若 $n$ 为偶数，则编号最大的分支节点只有左子节点，没有右子节点，其余分支节点都有左右子节点，也就是恰好有一个度为 1 的节点，即 $n_{1}=1$。
 
-- 完全二叉树的叶子节点数是 $\lceil \cfrac{n}{2} \rceil$。
+- 完全二叉树的叶子节点数是 $\lceil \dfrac{n}{2} \rceil$。
 
 ### §6.2.3 二叉树的存储结构
 

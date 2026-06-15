@@ -5,8 +5,8 @@ tags:
   - 數學
   - 信號與系統
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_信號與系統_Signals&Systems
 description: 信號與系統 第二章 連續時間系統的時域分析
 cover: /img/posts/notes/notes-signalsandsystems.webp
 top_img: /img/posts/notes/notes-signalsandsystems.webp

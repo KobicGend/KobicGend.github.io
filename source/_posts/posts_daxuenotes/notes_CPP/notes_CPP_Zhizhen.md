@@ -4,8 +4,8 @@ tags:
   - cpp
   - 筆記
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_CPP
 abbrlink: '73608288'
 date: 2024-05-01 12:00:00
 updated: 2024-05-01 12:00:00

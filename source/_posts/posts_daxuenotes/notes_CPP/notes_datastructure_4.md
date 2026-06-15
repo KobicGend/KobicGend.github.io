@@ -5,8 +5,8 @@ tags:
   - cpp
   - 數據結構
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_CPP
 description: 數據結構第四講：棧
 cover: /img/posts/notes/notes-datastructure.webp
 top_img: /img/posts/notes/notes-datastructure.webp

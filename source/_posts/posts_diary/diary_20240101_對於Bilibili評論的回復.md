@@ -5,8 +5,7 @@ tags:
   - 小明
   - Bilibili
 categories:
-  - - 日記
-    - 日常
+  - posts_diary
 cover: /img/diary-cover.webp
 top_img: false
 abbrlink: 96aa9b52

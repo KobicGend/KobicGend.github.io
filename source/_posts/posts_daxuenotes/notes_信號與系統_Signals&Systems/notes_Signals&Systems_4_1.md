@@ -5,8 +5,8 @@ tags:
   - 數學
   - 信號與系統
 categories:
-  - - 筆記
-    - 大學筆記
+  - posts_daxuenotes
+  - notes_信號與系統_Signals&Systems
 description: 信號與系統 第四章 連續時間信號與系統的頻域分析（上）
 cover: /img/posts/notes/notes-signalsandsystems.webp
 top_img: /img/posts/notes/notes-signalsandsystems.webp
@@ -84,7 +84,7 @@ f_{T}(t)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}a_{n}\cos n\Omega t+b_{n}\sin n\Omeg
 }
 $$
 
-式中 $\Omega=\cfrac{2\pi}{T}$ 表示周期函数 $f_{T}(t)$ 的角频率．
+式中 $\Omega=\dfrac{2\pi}{T}$ 表示周期函数 $f_{T}(t)$ 的角频率．
 
 熟知 **华莱式**
 
@@ -94,8 +94,8 @@ $$
 =\int_{0}^{\frac{\pi}{2}}{\cos^nx\mathrm{d}x}
 =\left\{
 \begin{array}{ll}
-\cfrac{(n-1)!!}{n!!} & n\text{ is odd.}\\
-\cfrac{(n-1)!!}{n!!} \cdot \cfrac{\pi}{2} & n\text{ is even.}
+\dfrac{(n-1)!!}{n!!} & n\text{ is odd.}\\
+\dfrac{(n-1)!!}{n!!} \cdot \dfrac{\pi}{2} & n\text{ is even.}
 \end{array}\right.
 $$
 
@@ -173,7 +173,7 @@ F_{n}\mathrm e^{\mathrm in\Omega t}
 }
 $$
 
-式中 $\Omega=\cfrac{2\pi}{T}$ 表示周期函数 $f_{T}(t)$ 的角频率．
+式中 $\Omega=\dfrac{2\pi}{T}$ 表示周期函数 $f_{T}(t)$ 的角频率．
 
 结合系数计算公式，有
 
@@ -225,20 +225,20 @@ $$
 a_{0}=A_{0} \\
 a_{n}=A_{n}\cos\varphi_{n} \\
 b_{n}=-A_{n}\sin\varphi_{n} \\
-F_{n}=\cfrac{1}{2}A_{n}\mathrm e^{\mathrm i\varphi_{n} } 
+F_{n}=\dfrac{1}{2}A_{n}\mathrm e^{\mathrm i\varphi_{n} } 
 \end{cases}
 \quad
 \begin{cases}
 A_{0}=a_{0} \\
 A_{n}=\sqrt{ a_{n}^{2}+b_{n}^{2} } \\
-F_{n}=\cfrac{1}{2}(a_{n}-\mathrm ib_{n}) \\
-\varphi_{n}=-\arctan \cfrac{b_{n}}{a_{n}}.
+F_{n}=\dfrac{1}{2}(a_{n}-\mathrm ib_{n}) \\
+\varphi_{n}=-\arctan \dfrac{b_{n}}{a_{n}}.
 \end{cases}
 $$
 
 值得注意的是，上述 $a_{n},b_{n},A_{n},\varphi_{n},F_{n}$ 均是关于 $n\Omega$（或 $n$）的函数，其中 $F_{n}$ 是复函数，且 $\operatorname{Re}F_{n},\ a_{n},\ |F_{n}|,\ A_{n}$ 是 **偶函数**，$\operatorname{Im}F_{n},\ b_{n},\ \varphi_{n}$ 是 **奇函数**．
 
-任何（满足狄里赫利条件的）周期函数都可以分解成 **直流分量** $\cfrac{A_{0}}{2}$ 和无穷多项 **谐波**（$n$ 次 **谐波** $A_{n}\cos (n\Omega t+\varphi_{n})$，特别地，一次谐波 $A_{1}\cos (\Omega t+\varphi_{1})$ 也称作 **基波**）分量之和的形式．
+任何（满足狄里赫利条件的）周期函数都可以分解成 **直流分量** $\dfrac{A_{0}}{2}$ 和无穷多项 **谐波**（$n$ 次 **谐波** $A_{n}\cos (n\Omega t+\varphi_{n})$，特别地，一次谐波 $A_{1}\cos (\Omega t+\varphi_{1})$ 也称作 **基波**）分量之和的形式．
 
 ### 4.1.2 函数的对称性
 
@@ -342,7 +342,7 @@ $$
 \end{aligned}
 $$
 
-式中 $\Omega=\cfrac{2\pi}{T}$ 表示周期函数 $f_{T}(t)$ 的角频率．
+式中 $\Omega=\dfrac{2\pi}{T}$ 表示周期函数 $f_{T}(t)$ 的角频率．
 
 在上式中令 $T\to +\infty$，周期函数变成了非周期函数，由于 $\Omega\to 0$，离散谱变成连续谱，离散频率 $n\Omega$ 变为连续频率 $\omega$，有 $f(t)$ 的 **频谱密度函数**（简称频谱函数）
 
@@ -732,7 +732,7 @@ $$
 
 **例 2** 求 $\operatorname{Sa}$ 函数的频谱．
 
-**解** 在 $\mathscr{F}[g_{\tau}(t)]= \tau \operatorname{Sa}\cfrac{\omega \tau}{2}$ 中取 $\tau=2$，即 $\mathscr{F}[g_{2}(t)]= 2\operatorname{Sa}\omega$，依互易性有
+**解** 在 $\mathscr{F}[g_{\tau}(t)]= \tau \operatorname{Sa}\dfrac{\omega \tau}{2}$ 中取 $\tau=2$，即 $\mathscr{F}[g_{2}(t)]= 2\operatorname{Sa}\omega$，依互易性有
 
 $$
 \mathscr{F}[\operatorname{Sa} t]

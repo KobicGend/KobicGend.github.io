@@ -4,15 +4,15 @@ tags:
   - 筆記
   - English
 categories:
-  - - 筆記
-    - 語言
-description: 
+  - posts_daxuenotes
+  - notes_English
 cover: /img/posts/notes/notes-electronicandcirc1uitfoundation.webp
 top_img: /img/posts/notes/notes-electronicandc1ircuitfoundation.webp
 aside: false
 abbrlink: e33e3b9c
 date: 2025-07-04 12:00:00
 updated: 2025-07-04 12:00:00
+description:
 ---
 
 <style>
